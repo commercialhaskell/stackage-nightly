@@ -77,7 +77,6 @@ github-users:
   - mokus0
 system-info:
   core-packages:
-    ghc: '8.2.1'
     hoopl: '3.10.2.2'
     bytestring: '0.10.8.2'
     unix: '2.7.2.2'
