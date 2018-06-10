@@ -1,0 +1,3576 @@
+ghc:
+  modules:
+    GHC:
+    - ghc-8.4.3
+    - GHC.html
+    SPARC.Imm:
+    - ghc-8.4.3
+    - SPARC-Imm.html
+    CorePrep:
+    - ghc-8.4.3
+    - CorePrep.html
+    RegAlloc.Graph.ArchBase:
+    - ghc-8.4.3
+    - RegAlloc-Graph-ArchBase.html
+    DsListComp:
+    - ghc-8.4.3
+    - DsListComp.html
+    CmmContFlowOpt:
+    - ghc-8.4.3
+    - CmmContFlowOpt.html
+    ByteCodeTypes:
+    - ghc-8.4.3
+    - ByteCodeTypes.html
+    CmmExpr:
+    - ghc-8.4.3
+    - CmmExpr.html
+    Bag:
+    - ghc-8.4.3
+    - Bag.html
+    ForeignCall:
+    - ghc-8.4.3
+    - ForeignCall.html
+    CmmSink:
+    - ghc-8.4.3
+    - CmmSink.html
+    ListSetOps:
+    - ghc-8.4.3
+    - ListSetOps.html
+    TcGenFunctor:
+    - ghc-8.4.3
+    - TcGenFunctor.html
+    SimplUtils:
+    - ghc-8.4.3
+    - SimplUtils.html
+    CodeGen.Platform.NoRegs:
+    - ghc-8.4.3
+    - CodeGen-Platform-NoRegs.html
+    Annotations:
+    - ghc-8.4.3
+    - Annotations.html
+    TcRnExports:
+    - ghc-8.4.3
+    - TcRnExports.html
+    CoreLint:
+    - ghc-8.4.3
+    - CoreLint.html
+    HsExpr:
+    - ghc-8.4.3
+    - HsExpr.html
+    StgSyn:
+    - ghc-8.4.3
+    - StgSyn.html
+    CoreArity:
+    - ghc-8.4.3
+    - CoreArity.html
+    Stream:
+    - ghc-8.4.3
+    - Stream.html
+    SPARC.CodeGen.Gen64:
+    - ghc-8.4.3
+    - SPARC-CodeGen-Gen64.html
+    RnSplice:
+    - ghc-8.4.3
+    - RnSplice.html
+    IfaceSyn:
+    - ghc-8.4.3
+    - IfaceSyn.html
+    CoreUtils:
+    - ghc-8.4.3
+    - CoreUtils.html
+    DriverPipeline:
+    - ghc-8.4.3
+    - DriverPipeline.html
+    TcDerivUtils:
+    - ghc-8.4.3
+    - TcDerivUtils.html
+    FieldLabel:
+    - ghc-8.4.3
+    - FieldLabel.html
+    BufWrite:
+    - ghc-8.4.3
+    - BufWrite.html
+    StgCmmExpr:
+    - ghc-8.4.3
+    - StgCmmExpr.html
+    RegAlloc.Graph.TrivColorable:
+    - ghc-8.4.3
+    - RegAlloc-Graph-TrivColorable.html
+    RegAlloc.Linear.FreeRegs:
+    - ghc-8.4.3
+    - RegAlloc-Linear-FreeRegs.html
+    State:
+    - ghc-8.4.3
+    - State.html
+    Exception:
+    - ghc-8.4.3
+    - Exception.html
+    RegAlloc.Linear.State:
+    - ghc-8.4.3
+    - RegAlloc-Linear-State.html
+    SPARC.CodeGen.Base:
+    - ghc-8.4.3
+    - SPARC-CodeGen-Base.html
+    SPARC.CodeGen.Gen32:
+    - ghc-8.4.3
+    - SPARC-CodeGen-Gen32.html
+    DmdAnal:
+    - ghc-8.4.3
+    - DmdAnal.html
+    Vectorise.Type.TyConDecl:
+    - ghc-8.4.3
+    - Vectorise-Type-TyConDecl.html
+    TcTypeNats:
+    - ghc-8.4.3
+    - TcTypeNats.html
+    Platform:
+    - ghc-8.4.3
+    - Platform.html
+    TcFlatten:
+    - ghc-8.4.3
+    - TcFlatten.html
+    WwLib:
+    - ghc-8.4.3
+    - WwLib.html
+    TcSplice:
+    - ghc-8.4.3
+    - TcSplice.html
+    FunDeps:
+    - ghc-8.4.3
+    - FunDeps.html
+    CoreSyn:
+    - ghc-8.4.3
+    - CoreSyn.html
+    FloatIn:
+    - ghc-8.4.3
+    - FloatIn.html
+    UnariseStg:
+    - ghc-8.4.3
+    - UnariseStg.html
+    SPARC.ShortcutJump:
+    - ghc-8.4.3
+    - SPARC-ShortcutJump.html
+    RnTypes:
+    - ghc-8.4.3
+    - RnTypes.html
+    TcDefaults:
+    - ghc-8.4.3
+    - TcDefaults.html
+    RepType:
+    - ghc-8.4.3
+    - RepType.html
+    ByteCodeItbls:
+    - ghc-8.4.3
+    - ByteCodeItbls.html
+    Vectorise.Convert:
+    - ghc-8.4.3
+    - Vectorise-Convert.html
+    StgCmmBind:
+    - ghc-8.4.3
+    - StgCmmBind.html
+    LlvmCodeGen:
+    - ghc-8.4.3
+    - LlvmCodeGen.html
+    SPARC.CodeGen.Sanity:
+    - ghc-8.4.3
+    - SPARC-CodeGen-Sanity.html
+    Vectorise.Monad.Base:
+    - ghc-8.4.3
+    - Vectorise-Monad-Base.html
+    SysTools:
+    - ghc-8.4.3
+    - SysTools.html
+    DataCon:
+    - ghc-8.4.3
+    - DataCon.html
+    ErrUtils:
+    - ghc-8.4.3
+    - ErrUtils.html
+    TcMType:
+    - ghc-8.4.3
+    - TcMType.html
+    CmmLex:
+    - ghc-8.4.3
+    - CmmLex.html
+    HsImpExp:
+    - ghc-8.4.3
+    - HsImpExp.html
+    CodeOutput:
+    - ghc-8.4.3
+    - CodeOutput.html
+    CoreStats:
+    - ghc-8.4.3
+    - CoreStats.html
+    SysTools.Tasks:
+    - ghc-8.4.3
+    - SysTools-Tasks.html
+    Vectorise.Utils.PADict:
+    - ghc-8.4.3
+    - Vectorise-Utils-PADict.html
+    DsGRHSs:
+    - ghc-8.4.3
+    - DsGRHSs.html
+    TcRnMonad:
+    - ghc-8.4.3
+    - TcRnMonad.html
+    NameEnv:
+    - ghc-8.4.3
+    - NameEnv.html
+    StgCmmMonad:
+    - ghc-8.4.3
+    - StgCmmMonad.html
+    DsUsage:
+    - ghc-8.4.3
+    - DsUsage.html
+    BooleanFormula:
+    - ghc-8.4.3
+    - BooleanFormula.html
+    Finder:
+    - ghc-8.4.3
+    - Finder.html
+    PlatformConstants:
+    - ghc-8.4.3
+    - PlatformConstants.html
+    OccurAnal:
+    - ghc-8.4.3
+    - OccurAnal.html
+    HsLit:
+    - ghc-8.4.3
+    - HsLit.html
+    CmmMonad:
+    - ghc-8.4.3
+    - CmmMonad.html
+    Config:
+    - ghc-8.4.3
+    - Config.html
+    X86.Instr:
+    - ghc-8.4.3
+    - X86-Instr.html
+    RegAlloc.Linear.X86_64.FreeRegs:
+    - ghc-8.4.3
+    - RegAlloc-Linear-X86_64-FreeRegs.html
+    CodeGen.Platform.ARM64:
+    - ghc-8.4.3
+    - CodeGen-Platform-ARM64.html
+    UnVarGraph:
+    - ghc-8.4.3
+    - UnVarGraph.html
+    SrcLoc:
+    - ghc-8.4.3
+    - SrcLoc.html
+    StgCmmClosure:
+    - ghc-8.4.3
+    - StgCmmClosure.html
+    SpecConstr:
+    - ghc-8.4.3
+    - SpecConstr.html
+    PmExpr:
+    - ghc-8.4.3
+    - PmExpr.html
+    PprColour:
+    - ghc-8.4.3
+    - PprColour.html
+    X86.Ppr:
+    - ghc-8.4.3
+    - X86-Ppr.html
+    TcSimplify:
+    - ghc-8.4.3
+    - TcSimplify.html
+    Outputable:
+    - ghc-8.4.3
+    - Outputable.html
+    Vectorise.Monad.Naming:
+    - ghc-8.4.3
+    - Vectorise-Monad-Naming.html
+    DsArrows:
+    - ghc-8.4.3
+    - DsArrows.html
+    LlvmCodeGen.CodeGen:
+    - ghc-8.4.3
+    - LlvmCodeGen-CodeGen.html
+    InstEnv:
+    - ghc-8.4.3
+    - InstEnv.html
+    CmmInfo:
+    - ghc-8.4.3
+    - CmmInfo.html
+    CodeGen.Platform.X86_64:
+    - ghc-8.4.3
+    - CodeGen-Platform-X86_64.html
+    CallArity:
+    - ghc-8.4.3
+    - CallArity.html
+    IfaceEnv:
+    - ghc-8.4.3
+    - IfaceEnv.html
+    Var:
+    - ghc-8.4.3
+    - Var.html
+    CLabel:
+    - ghc-8.4.3
+    - CLabel.html
+    CPrim:
+    - ghc-8.4.3
+    - CPrim.html
+    CmmLive:
+    - ghc-8.4.3
+    - CmmLive.html
+    Rules:
+    - ghc-8.4.3
+    - Rules.html
+    MkCore:
+    - ghc-8.4.3
+    - MkCore.html
+    TcArrows:
+    - ghc-8.4.3
+    - TcArrows.html
+    StgCse:
+    - ghc-8.4.3
+    - StgCse.html
+    CodeGen.Platform.PPC_Darwin:
+    - ghc-8.4.3
+    - CodeGen-Platform-PPC_Darwin.html
+    WorkWrap:
+    - ghc-8.4.3
+    - WorkWrap.html
+    InteractiveEvalTypes:
+    - ghc-8.4.3
+    - InteractiveEvalTypes.html
+    UniqDSet:
+    - ghc-8.4.3
+    - UniqDSet.html
+    CmmCallConv:
+    - ghc-8.4.3
+    - CmmCallConv.html
+    CSE:
+    - ghc-8.4.3
+    - CSE.html
+    Vectorise.Builtins.Initialise:
+    - ghc-8.4.3
+    - Vectorise-Builtins-Initialise.html
+    Unify:
+    - ghc-8.4.3
+    - Unify.html
+    RegAlloc.Linear.Base:
+    - ghc-8.4.3
+    - RegAlloc-Linear-Base.html
+    NameSet:
+    - ghc-8.4.3
+    - NameSet.html
+    TcTypeable:
+    - ghc-8.4.3
+    - TcTypeable.html
+    Simplify:
+    - ghc-8.4.3
+    - Simplify.html
+    RnUnbound:
+    - ghc-8.4.3
+    - RnUnbound.html
+    Coercion:
+    - ghc-8.4.3
+    - Coercion.html
+    CoreOpt:
+    - ghc-8.4.3
+    - CoreOpt.html
+    Fingerprint:
+    - ghc-8.4.3
+    - Fingerprint.html
+    FastStringEnv:
+    - ghc-8.4.3
+    - FastStringEnv.html
+    RegAlloc.Graph.Stats:
+    - ghc-8.4.3
+    - RegAlloc-Graph-Stats.html
+    TcExpr:
+    - ghc-8.4.3
+    - TcExpr.html
+    CodeGen.Platform.X86:
+    - ghc-8.4.3
+    - CodeGen-Platform-X86.html
+    FV:
+    - ghc-8.4.3
+    - FV.html
+    TcHsSyn:
+    - ghc-8.4.3
+    - TcHsSyn.html
+    GraphOps:
+    - ghc-8.4.3
+    - GraphOps.html
+    StaticPtrTable:
+    - ghc-8.4.3
+    - StaticPtrTable.html
+    ByteCodeAsm:
+    - ghc-8.4.3
+    - ByteCodeAsm.html
+    Json:
+    - ghc-8.4.3
+    - Json.html
+    DsExpr:
+    - ghc-8.4.3
+    - DsExpr.html
+    Inst:
+    - ghc-8.4.3
+    - Inst.html
+    Hooks:
+    - ghc-8.4.3
+    - Hooks.html
+    Kind:
+    - ghc-8.4.3
+    - Kind.html
+    SPARC.CodeGen.Amode:
+    - ghc-8.4.3
+    - SPARC-CodeGen-Amode.html
+    RegAlloc.Graph.SpillCost:
+    - ghc-8.4.3
+    - RegAlloc-Graph-SpillCost.html
+    SysTools.Terminal:
+    - ghc-8.4.3
+    - SysTools-Terminal.html
+    StgCmmArgRep:
+    - ghc-8.4.3
+    - StgCmmArgRep.html
+    SimplCore:
+    - ghc-8.4.3
+    - SimplCore.html
+    DynamicLoading:
+    - ghc-8.4.3
+    - DynamicLoading.html
+    Unique:
+    - ghc-8.4.3
+    - Unique.html
+    StgCmm:
+    - ghc-8.4.3
+    - StgCmm.html
+    RnUtils:
+    - ghc-8.4.3
+    - RnUtils.html
+    CmmNode:
+    - ghc-8.4.3
+    - CmmNode.html
+    Format:
+    - ghc-8.4.3
+    - Format.html
+    RdrName:
+    - ghc-8.4.3
+    - RdrName.html
+    PPC.Cond:
+    - ghc-8.4.3
+    - PPC-Cond.html
+    Avail:
+    - ghc-8.4.3
+    - Avail.html
+    Dwarf.Types:
+    - ghc-8.4.3
+    - Dwarf-Types.html
+    RegAlloc.Linear.JoinToTargets:
+    - ghc-8.4.3
+    - RegAlloc-Linear-JoinToTargets.html
+    Ctype:
+    - ghc-8.4.3
+    - Ctype.html
+    Ar:
+    - ghc-8.4.3
+    - Ar.html
+    HscMain:
+    - ghc-8.4.3
+    - HscMain.html
+    NCGMonad:
+    - ghc-8.4.3
+    - NCGMonad.html
+    RnExpr:
+    - ghc-8.4.3
+    - RnExpr.html
+    RdrHsSyn:
+    - ghc-8.4.3
+    - RdrHsSyn.html
+    CgUtils:
+    - ghc-8.4.3
+    - CgUtils.html
+    HscTypes:
+    - ghc-8.4.3
+    - HscTypes.html
+    RegAlloc.Graph.Spill:
+    - ghc-8.4.3
+    - RegAlloc-Graph-Spill.html
+    Desugar:
+    - ghc-8.4.3
+    - Desugar.html
+    SPARC.Cond:
+    - ghc-8.4.3
+    - SPARC-Cond.html
+    SimplStg:
+    - ghc-8.4.3
+    - SimplStg.html
+    OptCoercion:
+    - ghc-8.4.3
+    - OptCoercion.html
+    Cmm:
+    - ghc-8.4.3
+    - Cmm.html
+    CmmMachOp:
+    - ghc-8.4.3
+    - CmmMachOp.html
+    Llvm:
+    - ghc-8.4.3
+    - Llvm.html
+    SPARC.Stack:
+    - ghc-8.4.3
+    - SPARC-Stack.html
+    Bitmap:
+    - ghc-8.4.3
+    - Bitmap.html
+    PprTyThing:
+    - ghc-8.4.3
+    - PprTyThing.html
+    PipelineMonad:
+    - ghc-8.4.3
+    - PipelineMonad.html
+    MkId:
+    - ghc-8.4.3
+    - MkId.html
+    RegAlloc.Linear.Main:
+    - ghc-8.4.3
+    - RegAlloc-Linear-Main.html
+    PPC.Regs:
+    - ghc-8.4.3
+    - PPC-Regs.html
+    LoadIface:
+    - ghc-8.4.3
+    - LoadIface.html
+    Specialise:
+    - ghc-8.4.3
+    - Specialise.html
+    Check:
+    - ghc-8.4.3
+    - Check.html
+    GraphPpr:
+    - ghc-8.4.3
+    - GraphPpr.html
+    PprCmmExpr:
+    - ghc-8.4.3
+    - PprCmmExpr.html
+    ListT:
+    - ghc-8.4.3
+    - ListT.html
+    Coverage:
+    - ghc-8.4.3
+    - Coverage.html
+    GhcPlugins:
+    - ghc-8.4.3
+    - GhcPlugins.html
+    SAT:
+    - ghc-8.4.3
+    - SAT.html
+    TcPatSyn:
+    - ghc-8.4.3
+    - TcPatSyn.html
+    CoAxiom:
+    - ghc-8.4.3
+    - CoAxiom.html
+    RegAlloc.Graph.SpillClean:
+    - ghc-8.4.3
+    - RegAlloc-Graph-SpillClean.html
+    DebuggerUtils:
+    - ghc-8.4.3
+    - DebuggerUtils.html
+    Vectorise.Type.Classify:
+    - ghc-8.4.3
+    - Vectorise-Type-Classify.html
+    MkIface:
+    - ghc-8.4.3
+    - MkIface.html
+    Hoopl.Graph:
+    - ghc-8.4.3
+    - Hoopl-Graph.html
+    Llvm.Types:
+    - ghc-8.4.3
+    - Llvm-Types.html
+    HsPat:
+    - ghc-8.4.3
+    - HsPat.html
+    RegClass:
+    - ghc-8.4.3
+    - RegClass.html
+    CmmBuildInfoTables:
+    - ghc-8.4.3
+    - CmmBuildInfoTables.html
+    RegAlloc.Liveness:
+    - ghc-8.4.3
+    - RegAlloc-Liveness.html
+    DriverMkDepend:
+    - ghc-8.4.3
+    - DriverMkDepend.html
+    GhcMake:
+    - ghc-8.4.3
+    - GhcMake.html
+    StgCmmEnv:
+    - ghc-8.4.3
+    - StgCmmEnv.html
+    SPARC.Regs:
+    - ghc-8.4.3
+    - SPARC-Regs.html
+    FloatOut:
+    - ghc-8.4.3
+    - FloatOut.html
+    Dwarf:
+    - ghc-8.4.3
+    - Dwarf.html
+    SPARC.CodeGen.CondCode:
+    - ghc-8.4.3
+    - SPARC-CodeGen-CondCode.html
+    GraphColor:
+    - ghc-8.4.3
+    - GraphColor.html
+    RegAlloc.Linear.Stats:
+    - ghc-8.4.3
+    - RegAlloc-Linear-Stats.html
+    CmmProcPoint:
+    - ghc-8.4.3
+    - CmmProcPoint.html
+    GraphBase:
+    - ghc-8.4.3
+    - GraphBase.html
+    EnumSet:
+    - ghc-8.4.3
+    - EnumSet.html
+    Vectorise.Monad:
+    - ghc-8.4.3
+    - Vectorise-Monad.html
+    CmmSwitch:
+    - ghc-8.4.3
+    - CmmSwitch.html
+    X86.CodeGen:
+    - ghc-8.4.3
+    - X86-CodeGen.html
+    Debugger:
+    - ghc-8.4.3
+    - Debugger.html
+    Vectorise.Builtins.Base:
+    - ghc-8.4.3
+    - Vectorise-Builtins-Base.html
+    Packages:
+    - ghc-8.4.3
+    - Packages.html
+    Llvm.AbsSyn:
+    - ghc-8.4.3
+    - Llvm-AbsSyn.html
+    HscStats:
+    - ghc-8.4.3
+    - HscStats.html
+    PprCore:
+    - ghc-8.4.3
+    - PprCore.html
+    CoreUnfold:
+    - ghc-8.4.3
+    - CoreUnfold.html
+    FastFunctions:
+    - ghc-8.4.3
+    - FastFunctions.html
+    PprC:
+    - ghc-8.4.3
+    - PprC.html
+    UniqSet:
+    - ghc-8.4.3
+    - UniqSet.html
+    RnEnv:
+    - ghc-8.4.3
+    - RnEnv.html
+    StgStats:
+    - ghc-8.4.3
+    - StgStats.html
+    RnPat:
+    - ghc-8.4.3
+    - RnPat.html
+    Debug:
+    - ghc-8.4.3
+    - Debug.html
+    BasicTypes:
+    - ghc-8.4.3
+    - BasicTypes.html
+    MatchCon:
+    - ghc-8.4.3
+    - MatchCon.html
+    StgCmmLayout:
+    - ghc-8.4.3
+    - StgCmmLayout.html
+    SPARC.CodeGen:
+    - ghc-8.4.3
+    - SPARC-CodeGen.html
+    Lexeme:
+    - ghc-8.4.3
+    - Lexeme.html
+    TysWiredIn:
+    - ghc-8.4.3
+    - TysWiredIn.html
+    LiberateCase:
+    - ghc-8.4.3
+    - LiberateCase.html
+    Hoopl.Label:
+    - ghc-8.4.3
+    - Hoopl-Label.html
+    CmmLint:
+    - ghc-8.4.3
+    - CmmLint.html
+    Util:
+    - ghc-8.4.3
+    - Util.html
+    Vectorise.Vect:
+    - ghc-8.4.3
+    - Vectorise-Vect.html
+    HsUtils:
+    - ghc-8.4.3
+    - HsUtils.html
+    DynFlags:
+    - ghc-8.4.3
+    - DynFlags.html
+    UniqDFM:
+    - ghc-8.4.3
+    - UniqDFM.html
+    TcEvidence:
+    - ghc-8.4.3
+    - TcEvidence.html
+    Vectorise.Utils.Base:
+    - ghc-8.4.3
+    - Vectorise-Utils-Base.html
+    Vectorise.Generic.PADict:
+    - ghc-8.4.3
+    - Vectorise-Generic-PADict.html
+    BlockId:
+    - ghc-8.4.3
+    - BlockId.html
+    TcErrors:
+    - ghc-8.4.3
+    - TcErrors.html
+    LlvmCodeGen.Data:
+    - ghc-8.4.3
+    - LlvmCodeGen-Data.html
+    Vectorise.Monad.Global:
+    - ghc-8.4.3
+    - Vectorise-Monad-Global.html
+    TcHsType:
+    - ghc-8.4.3
+    - TcHsType.html
+    BuildTyCl:
+    - ghc-8.4.3
+    - BuildTyCl.html
+    CmmUtils:
+    - ghc-8.4.3
+    - CmmUtils.html
+    PPC.CodeGen:
+    - ghc-8.4.3
+    - PPC-CodeGen.html
+    SPARC.CodeGen.Expand:
+    - ghc-8.4.3
+    - SPARC-CodeGen-Expand.html
+    CoreSeq:
+    - ghc-8.4.3
+    - CoreSeq.html
+    StgCmmUtils:
+    - ghc-8.4.3
+    - StgCmmUtils.html
+    TyCon:
+    - ghc-8.4.3
+    - TyCon.html
+    TmOracle:
+    - ghc-8.4.3
+    - TmOracle.html
+    PPC.Ppr:
+    - ghc-8.4.3
+    - PPC-Ppr.html
+    SysTools.Process:
+    - ghc-8.4.3
+    - SysTools-Process.html
+    Elf:
+    - ghc-8.4.3
+    - Elf.html
+    UniqMap:
+    - ghc-8.4.3
+    - UniqMap.html
+    SPARC.Instr:
+    - ghc-8.4.3
+    - SPARC-Instr.html
+    VarSet:
+    - ghc-8.4.3
+    - VarSet.html
+    StgCmmHeap:
+    - ghc-8.4.3
+    - StgCmmHeap.html
+    Vectorise.Generic.PData:
+    - ghc-8.4.3
+    - Vectorise-Generic-PData.html
+    ApiAnnotation:
+    - ghc-8.4.3
+    - ApiAnnotation.html
+    FamInstEnv:
+    - ghc-8.4.3
+    - FamInstEnv.html
+    Linker:
+    - ghc-8.4.3
+    - Linker.html
+    RegAlloc.Graph.ArchX86:
+    - ghc-8.4.3
+    - RegAlloc-Graph-ArchX86.html
+    PPC.Instr:
+    - ghc-8.4.3
+    - PPC-Instr.html
+    Hoopl.Collections:
+    - ghc-8.4.3
+    - Hoopl-Collections.html
+    CmmLayoutStack:
+    - ghc-8.4.3
+    - CmmLayoutStack.html
+    HsSyn:
+    - ghc-8.4.3
+    - HsSyn.html
+    ByteCodeLink:
+    - ghc-8.4.3
+    - ByteCodeLink.html
+    StgCmmTicky:
+    - ghc-8.4.3
+    - StgCmmTicky.html
+    RnHsDoc:
+    - ghc-8.4.3
+    - RnHsDoc.html
+    PprCmmDecl:
+    - ghc-8.4.3
+    - PprCmmDecl.html
+    LlvmCodeGen.Regs:
+    - ghc-8.4.3
+    - LlvmCodeGen-Regs.html
+    RegAlloc.Linear.X86.FreeRegs:
+    - ghc-8.4.3
+    - RegAlloc-Linear-X86-FreeRegs.html
+    PrelNames:
+    - ghc-8.4.3
+    - PrelNames.html
+    StgCmmExtCode:
+    - ghc-8.4.3
+    - StgCmmExtCode.html
+    RnFixity:
+    - ghc-8.4.3
+    - RnFixity.html
+    Parser:
+    - ghc-8.4.3
+    - Parser.html
+    DriverBkp:
+    - ghc-8.4.3
+    - DriverBkp.html
+    Convert:
+    - ghc-8.4.3
+    - Convert.html
+    TcIface:
+    - ghc-8.4.3
+    - TcIface.html
+    Name:
+    - ghc-8.4.3
+    - Name.html
+    TcInstDcls:
+    - ghc-8.4.3
+    - TcInstDcls.html
+    TcType:
+    - ghc-8.4.3
+    - TcType.html
+    SetLevels:
+    - ghc-8.4.3
+    - SetLevels.html
+    TcGenDeriv:
+    - ghc-8.4.3
+    - TcGenDeriv.html
+    Demand:
+    - ghc-8.4.3
+    - Demand.html
+    SPARC.Ppr:
+    - ghc-8.4.3
+    - SPARC-Ppr.html
+    Vectorise.Utils:
+    - ghc-8.4.3
+    - Vectorise-Utils.html
+    PprBase:
+    - ghc-8.4.3
+    - PprBase.html
+    Binary:
+    - ghc-8.4.3
+    - Binary.html
+    StgLint:
+    - ghc-8.4.3
+    - StgLint.html
+    FastMutInt:
+    - ghc-8.4.3
+    - FastMutInt.html
+    TcTyDecls:
+    - ghc-8.4.3
+    - TcTyDecls.html
+    Vectorise.Monad.InstEnv:
+    - ghc-8.4.3
+    - Vectorise-Monad-InstEnv.html
+    Vectorise.Builtins:
+    - ghc-8.4.3
+    - Vectorise-Builtins.html
+    RnModIface:
+    - ghc-8.4.3
+    - RnModIface.html
+    TcRules:
+    - ghc-8.4.3
+    - TcRules.html
+    TcMatches:
+    - ghc-8.4.3
+    - TcMatches.html
+    Pair:
+    - ghc-8.4.3
+    - Pair.html
+    Plugins:
+    - ghc-8.4.3
+    - Plugins.html
+    SimplMonad:
+    - ghc-8.4.3
+    - SimplMonad.html
+    MatchLit:
+    - ghc-8.4.3
+    - MatchLit.html
+    DsMeta:
+    - ghc-8.4.3
+    - DsMeta.html
+    RegAlloc.Linear.StackMap:
+    - ghc-8.4.3
+    - RegAlloc-Linear-StackMap.html
+    HsExtension:
+    - ghc-8.4.3
+    - HsExtension.html
+    RegAlloc.Graph.Main:
+    - ghc-8.4.3
+    - RegAlloc-Graph-Main.html
+    Vectorise.Monad.Local:
+    - ghc-8.4.3
+    - Vectorise-Monad-Local.html
+    TcEnv:
+    - ghc-8.4.3
+    - TcEnv.html
+    RegAlloc.Linear.PPC.FreeRegs:
+    - ghc-8.4.3
+    - RegAlloc-Linear-PPC-FreeRegs.html
+    CoreMonad:
+    - ghc-8.4.3
+    - CoreMonad.html
+    TcUnify:
+    - ghc-8.4.3
+    - TcUnify.html
+    MkGraph:
+    - ghc-8.4.3
+    - MkGraph.html
+    TcPat:
+    - ghc-8.4.3
+    - TcPat.html
+    DriverPhases:
+    - ghc-8.4.3
+    - DriverPhases.html
+    TidyPgm:
+    - ghc-8.4.3
+    - TidyPgm.html
+    Module:
+    - ghc-8.4.3
+    - Module.html
+    SysTools.Info:
+    - ghc-8.4.3
+    - SysTools-Info.html
+    Vectorise.Generic.PAMethods:
+    - ghc-8.4.3
+    - Vectorise-Generic-PAMethods.html
+    FamInst:
+    - ghc-8.4.3
+    - FamInst.html
+    PIC:
+    - ghc-8.4.3
+    - PIC.html
+    TcClassDcl:
+    - ghc-8.4.3
+    - TcClassDcl.html
+    RegAlloc.Linear.SPARC.FreeRegs:
+    - ghc-8.4.3
+    - RegAlloc-Linear-SPARC-FreeRegs.html
+    CmmCommonBlockElim:
+    - ghc-8.4.3
+    - CmmCommonBlockElim.html
+    SPARC.AddrMode:
+    - ghc-8.4.3
+    - SPARC-AddrMode.html
+    TcBinds:
+    - ghc-8.4.3
+    - TcBinds.html
+    StringBuffer:
+    - ghc-8.4.3
+    - StringBuffer.html
+    GHCi:
+    - ghc-8.4.3
+    - GHCi.html
+    TcBackpack:
+    - ghc-8.4.3
+    - TcBackpack.html
+    Id:
+    - ghc-8.4.3
+    - Id.html
+    Vectorise.Var:
+    - ghc-8.4.3
+    - Vectorise-Var.html
+    GhcMonad:
+    - ghc-8.4.3
+    - GhcMonad.html
+    BinIface:
+    - ghc-8.4.3
+    - BinIface.html
+    CodeGen.Platform.PPC:
+    - ghc-8.4.3
+    - CodeGen-Platform-PPC.html
+    LlvmMangler:
+    - ghc-8.4.3
+    - LlvmMangler.html
+    CodeGen.Platform.SPARC:
+    - ghc-8.4.3
+    - CodeGen-Platform-SPARC.html
+    FiniteMap:
+    - ghc-8.4.3
+    - FiniteMap.html
+    BkpSyn:
+    - ghc-8.4.3
+    - BkpSyn.html
+    Panic:
+    - ghc-8.4.3
+    - Panic.html
+    FastString:
+    - ghc-8.4.3
+    - FastString.html
+    DsBinds:
+    - ghc-8.4.3
+    - DsBinds.html
+    TcInteract:
+    - ghc-8.4.3
+    - TcInteract.html
+    TcRnDriver:
+    - ghc-8.4.3
+    - TcRnDriver.html
+    Dwarf.Constants:
+    - ghc-8.4.3
+    - Dwarf-Constants.html
+    Constants:
+    - ghc-8.4.3
+    - Constants.html
+    TcSMonad:
+    - ghc-8.4.3
+    - TcSMonad.html
+    BinFingerprint:
+    - ghc-8.4.3
+    - BinFingerprint.html
+    Vectorise.Env:
+    - ghc-8.4.3
+    - Vectorise-Env.html
+    Vectorise.Exp:
+    - ghc-8.4.3
+    - Vectorise-Exp.html
+    PrelInfo:
+    - ghc-8.4.3
+    - PrelInfo.html
+    StgCmmPrim:
+    - ghc-8.4.3
+    - StgCmmPrim.html
+    TcValidity:
+    - ghc-8.4.3
+    - TcValidity.html
+    StgCmmForeign:
+    - ghc-8.4.3
+    - StgCmmForeign.html
+    TcDerivInfer:
+    - ghc-8.4.3
+    - TcDerivInfer.html
+    FlagChecker:
+    - ghc-8.4.3
+    - FlagChecker.html
+    TcCanonical:
+    - ghc-8.4.3
+    - TcCanonical.html
+    ByteCodeInstr:
+    - ghc-8.4.3
+    - ByteCodeInstr.html
+    TcRnTypes:
+    - ghc-8.4.3
+    - TcRnTypes.html
+    CoreSubst:
+    - ghc-8.4.3
+    - CoreSubst.html
+    UniqSupply:
+    - ghc-8.4.3
+    - UniqSupply.html
+    StgCmmHpc:
+    - ghc-8.4.3
+    - StgCmmHpc.html
+    Vectorise.Utils.Closure:
+    - ghc-8.4.3
+    - Vectorise-Utils-Closure.html
+    CostCentre:
+    - ghc-8.4.3
+    - CostCentre.html
+    AsmUtils:
+    - ghc-8.4.3
+    - AsmUtils.html
+    NameShape:
+    - ghc-8.4.3
+    - NameShape.html
+    RegAlloc.Graph.Coalesce:
+    - ghc-8.4.3
+    - RegAlloc-Graph-Coalesce.html
+    Type:
+    - ghc-8.4.3
+    - Type.html
+    OccName:
+    - ghc-8.4.3
+    - OccName.html
+    Instruction:
+    - ghc-8.4.3
+    - Instruction.html
+    Llvm.MetaData:
+    - ghc-8.4.3
+    - Llvm-MetaData.html
+    RnNames:
+    - ghc-8.4.3
+    - RnNames.html
+    IfaceType:
+    - ghc-8.4.3
+    - IfaceType.html
+    Vectorise.Utils.Hoisting:
+    - ghc-8.4.3
+    - Vectorise-Utils-Hoisting.html
+    UniqFM:
+    - ghc-8.4.3
+    - UniqFM.html
+    CoreFVs:
+    - ghc-8.4.3
+    - CoreFVs.html
+    THNames:
+    - ghc-8.4.3
+    - THNames.html
+    Reg:
+    - ghc-8.4.3
+    - Reg.html
+    CmmOpt:
+    - ghc-8.4.3
+    - CmmOpt.html
+    CodeGen.Platform:
+    - ghc-8.4.3
+    - CodeGen-Platform.html
+    SPARC.Base:
+    - ghc-8.4.3
+    - SPARC-Base.html
+    DsUtils:
+    - ghc-8.4.3
+    - DsUtils.html
+    VarEnv:
+    - ghc-8.4.3
+    - VarEnv.html
+    Hoopl.Dataflow:
+    - ghc-8.4.3
+    - Hoopl-Dataflow.html
+    StgCmmProf:
+    - ghc-8.4.3
+    - StgCmmProf.html
+    HsTypes:
+    - ghc-8.4.3
+    - HsTypes.html
+    PackageConfig:
+    - ghc-8.4.3
+    - PackageConfig.html
+    CoreToStg:
+    - ghc-8.4.3
+    - CoreToStg.html
+    CodeGen.Platform.ARM:
+    - ghc-8.4.3
+    - CodeGen-Platform-ARM.html
+    TysPrim:
+    - ghc-8.4.3
+    - TysPrim.html
+    CmmType:
+    - ghc-8.4.3
+    - CmmType.html
+    Encoding:
+    - ghc-8.4.3
+    - Encoding.html
+    NameCache:
+    - ghc-8.4.3
+    - NameCache.html
+    X86.Regs:
+    - ghc-8.4.3
+    - X86-Regs.html
+    TcTyClsDecls:
+    - ghc-8.4.3
+    - TcTyClsDecls.html
+    CoreTidy:
+    - ghc-8.4.3
+    - CoreTidy.html
+    CmdLineParser:
+    - ghc-8.4.3
+    - CmdLineParser.html
+    Vectorise.Utils.Poly:
+    - ghc-8.4.3
+    - Vectorise-Utils-Poly.html
+    Literal:
+    - ghc-8.4.3
+    - Literal.html
+    KnownUniques:
+    - ghc-8.4.3
+    - KnownUniques.html
+    Match:
+    - ghc-8.4.3
+    - Match.html
+    TcDeriv:
+    - ghc-8.4.3
+    - TcDeriv.html
+    ToIface:
+    - ghc-8.4.3
+    - ToIface.html
+    Hoopl.Block:
+    - ghc-8.4.3
+    - Hoopl-Block.html
+    TcPluginM:
+    - ghc-8.4.3
+    - TcPluginM.html
+    IOEnv:
+    - ghc-8.4.3
+    - IOEnv.html
+    PlaceHolder:
+    - ghc-8.4.3
+    - PlaceHolder.html
+    TcAnnotations:
+    - ghc-8.4.3
+    - TcAnnotations.html
+    OrdList:
+    - ghc-8.4.3
+    - OrdList.html
+    IdInfo:
+    - ghc-8.4.3
+    - IdInfo.html
+    ByteCodeGen:
+    - ghc-8.4.3
+    - ByteCodeGen.html
+    HsDoc:
+    - ghc-8.4.3
+    - HsDoc.html
+    Vectorise.Type.Env:
+    - ghc-8.4.3
+    - Vectorise-Type-Env.html
+    PPC.RegInfo:
+    - ghc-8.4.3
+    - PPC-RegInfo.html
+    Class:
+    - ghc-8.4.3
+    - Class.html
+    PrelRules:
+    - ghc-8.4.3
+    - PrelRules.html
+    TrieMap:
+    - ghc-8.4.3
+    - TrieMap.html
+    Lexer:
+    - ghc-8.4.3
+    - Lexer.html
+    SimplEnv:
+    - ghc-8.4.3
+    - SimplEnv.html
+    RnBinds:
+    - ghc-8.4.3
+    - RnBinds.html
+    Exitify:
+    - ghc-8.4.3
+    - Exitify.html
+    InteractiveEval:
+    - ghc-8.4.3
+    - InteractiveEval.html
+    MonadUtils:
+    - ghc-8.4.3
+    - MonadUtils.html
+    DsMonad:
+    - ghc-8.4.3
+    - DsMonad.html
+    Vectorise:
+    - ghc-8.4.3
+    - Vectorise.html
+    Llvm.PpLlvm:
+    - ghc-8.4.3
+    - Llvm-PpLlvm.html
+    Pretty:
+    - ghc-8.4.3
+    - Pretty.html
+    LlvmCodeGen.Ppr:
+    - ghc-8.4.3
+    - LlvmCodeGen-Ppr.html
+    HsDecls:
+    - ghc-8.4.3
+    - HsDecls.html
+    X86.Cond:
+    - ghc-8.4.3
+    - X86-Cond.html
+    FileCleanup:
+    - ghc-8.4.3
+    - FileCleanup.html
+    SysTools.BaseDir:
+    - ghc-8.4.3
+    - SysTools-BaseDir.html
+    CmmParse:
+    - ghc-8.4.3
+    - CmmParse.html
+    X86.RegInfo:
+    - ghc-8.4.3
+    - X86-RegInfo.html
+    CmmImplementSwitchPlans:
+    - ghc-8.4.3
+    - CmmImplementSwitchPlans.html
+    DsCCall:
+    - ghc-8.4.3
+    - DsCCall.html
+    Vectorise.Type.Type:
+    - ghc-8.4.3
+    - Vectorise-Type-Type.html
+    AsmCodeGen:
+    - ghc-8.4.3
+    - AsmCodeGen.html
+    TcSigs:
+    - ghc-8.4.3
+    - TcSigs.html
+    Vectorise.Generic.Description:
+    - ghc-8.4.3
+    - Vectorise-Generic-Description.html
+    Maybes:
+    - ghc-8.4.3
+    - Maybes.html
+    PatSyn:
+    - ghc-8.4.3
+    - PatSyn.html
+    StgCmmCon:
+    - ghc-8.4.3
+    - StgCmmCon.html
+    TargetReg:
+    - ghc-8.4.3
+    - TargetReg.html
+    TcForeign:
+    - ghc-8.4.3
+    - TcForeign.html
+    Hoopl.Unique:
+    - ghc-8.4.3
+    - Hoopl-Unique.html
+    TcGenGenerics:
+    - ghc-8.4.3
+    - TcGenGenerics.html
+    ConLike:
+    - ghc-8.4.3
+    - ConLike.html
+    SMRep:
+    - ghc-8.4.3
+    - SMRep.html
+    HsDumpAst:
+    - ghc-8.4.3
+    - HsDumpAst.html
+    Digraph:
+    - ghc-8.4.3
+    - Digraph.html
+    ProfInit:
+    - ghc-8.4.3
+    - ProfInit.html
+    SysTools.ExtraObj:
+    - ghc-8.4.3
+    - SysTools-ExtraObj.html
+    HaddockUtils:
+    - ghc-8.4.3
+    - HaddockUtils.html
+    PprCmm:
+    - ghc-8.4.3
+    - PprCmm.html
+    RtClosureInspect:
+    - ghc-8.4.3
+    - RtClosureInspect.html
+    HeaderInfo:
+    - ghc-8.4.3
+    - HeaderInfo.html
+    DsForeign:
+    - ghc-8.4.3
+    - DsForeign.html
+    PrimOp:
+    - ghc-8.4.3
+    - PrimOp.html
+    CmmPipeline:
+    - ghc-8.4.3
+    - CmmPipeline.html
+    LlvmCodeGen.Base:
+    - ghc-8.4.3
+    - LlvmCodeGen-Base.html
+    RnSource:
+    - ghc-8.4.3
+    - RnSource.html
+    HsBinds:
+    - ghc-8.4.3
+    - HsBinds.html
+  version: '8.4.3'
+haskell-src-exts-simple:
+  modules:
+    Language.Haskell.Exts.Simple.Pretty:
+    - haskell-src-exts-simple-1.20.0.0
+    - Language-Haskell-Exts-Simple-Pretty.html
+    Language.Haskell.Exts.Simple.Extension:
+    - haskell-src-exts-simple-1.20.0.0
+    - Language-Haskell-Exts-Simple-Extension.html
+    Language.Haskell.Exts.Simple:
+    - haskell-src-exts-simple-1.20.0.0
+    - Language-Haskell-Exts-Simple.html
+    Language.Haskell.Exts.Simple.Build:
+    - haskell-src-exts-simple-1.20.0.0
+    - Language-Haskell-Exts-Simple-Build.html
+    Language.Haskell.Exts.Simple.Parser:
+    - haskell-src-exts-simple-1.20.0.0
+    - Language-Haskell-Exts-Simple-Parser.html
+    Language.Haskell.Exts.Simple.Syntax:
+    - haskell-src-exts-simple-1.20.0.0
+    - Language-Haskell-Exts-Simple-Syntax.html
+    Language.Haskell.Exts.Simple.Fixity:
+    - haskell-src-exts-simple-1.20.0.0
+    - Language-Haskell-Exts-Simple-Fixity.html
+  version: '1.20.0.0'
+warp-tls-uid:
+  modules:
+    Network.Wai.Handler.WarpTLS.UserId:
+    - warp-tls-uid-0.2.0.3
+    - Network-Wai-Handler-WarpTLS-UserId.html
+  version: '0.2.0.3'
+haskintex:
+  modules:
+    Haskintex:
+    - haskintex-0.8.0.0
+    - Haskintex.html
+  version: '0.8.0.0'
+bytestring:
+  modules:
+    Data.ByteString.Char8:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Char8.html
+    Data.ByteString.Lazy.Builder:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Lazy-Builder.html
+    Data.ByteString.Lazy.Builder.ASCII:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Lazy-Builder-ASCII.html
+    Data.ByteString.Lazy:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Lazy.html
+    Data.ByteString.Lazy.Char8:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Lazy-Char8.html
+    Data.ByteString.Builder.Extra:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Builder-Extra.html
+    Data.ByteString.Unsafe:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Unsafe.html
+    Data.ByteString.Short:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Short.html
+    Data.ByteString.Builder.Prim:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Builder-Prim.html
+    Data.ByteString.Builder:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Builder.html
+    Data.ByteString:
+    - bytestring-0.10.8.2
+    - Data-ByteString.html
+    Data.ByteString.Lazy.Builder.Extras:
+    - bytestring-0.10.8.2
+    - Data-ByteString-Lazy-Builder-Extras.html
+  version: '0.10.8.2'
+unix:
+  modules:
+    System.Posix.Env.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-Env-ByteString.html
+    System.Posix.DynamicLinker.Module.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-DynamicLinker-Module-ByteString.html
+    System.Posix.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-ByteString.html
+    System.Posix.IO.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-IO-ByteString.html
+    System.Posix.Process.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-Process-ByteString.html
+    System.Posix.Semaphore:
+    - unix-2.7.2.2
+    - System-Posix-Semaphore.html
+    System.Posix.ByteString.FilePath:
+    - unix-2.7.2.2
+    - System-Posix-ByteString-FilePath.html
+    System.Posix.Temp.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-Temp-ByteString.html
+    System.Posix.Terminal.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-Terminal-ByteString.html
+    System.Posix.Time:
+    - unix-2.7.2.2
+    - System-Posix-Time.html
+    System.Posix.Env:
+    - unix-2.7.2.2
+    - System-Posix-Env.html
+    System.Posix.Error:
+    - unix-2.7.2.2
+    - System-Posix-Error.html
+    System.Posix.DynamicLinker.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-DynamicLinker-ByteString.html
+    System.Posix.Process:
+    - unix-2.7.2.2
+    - System-Posix-Process.html
+    System.Posix.Fcntl:
+    - unix-2.7.2.2
+    - System-Posix-Fcntl.html
+    System.Posix:
+    - unix-2.7.2.2
+    - System-Posix.html
+    System.Posix.IO:
+    - unix-2.7.2.2
+    - System-Posix-IO.html
+    System.Posix.DynamicLinker.Module:
+    - unix-2.7.2.2
+    - System-Posix-DynamicLinker-Module.html
+    System.Posix.Signals.Exts:
+    - unix-2.7.2.2
+    - System-Posix-Signals-Exts.html
+    System.Posix.User:
+    - unix-2.7.2.2
+    - System-Posix-User.html
+    System.Posix.Unistd:
+    - unix-2.7.2.2
+    - System-Posix-Unistd.html
+    System.Posix.Files.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-Files-ByteString.html
+    System.Posix.SharedMem:
+    - unix-2.7.2.2
+    - System-Posix-SharedMem.html
+    System.Posix.Temp:
+    - unix-2.7.2.2
+    - System-Posix-Temp.html
+    System.Posix.Terminal:
+    - unix-2.7.2.2
+    - System-Posix-Terminal.html
+    System.Posix.DynamicLinker.Prim:
+    - unix-2.7.2.2
+    - System-Posix-DynamicLinker-Prim.html
+    System.Posix.Resource:
+    - unix-2.7.2.2
+    - System-Posix-Resource.html
+    System.Posix.DynamicLinker:
+    - unix-2.7.2.2
+    - System-Posix-DynamicLinker.html
+    System.Posix.Signals:
+    - unix-2.7.2.2
+    - System-Posix-Signals.html
+    System.Posix.Files:
+    - unix-2.7.2.2
+    - System-Posix-Files.html
+    System.Posix.Directory.ByteString:
+    - unix-2.7.2.2
+    - System-Posix-Directory-ByteString.html
+    System.Posix.Process.Internals:
+    - unix-2.7.2.2
+    - System-Posix-Process-Internals.html
+    System.Posix.Directory:
+    - unix-2.7.2.2
+    - System-Posix-Directory.html
+  version: '2.7.2.2'
+haskeline:
+  modules:
+    System.Console.Haskeline:
+    - haskeline-0.7.4.2
+    - System-Console-Haskeline.html
+    System.Console.Haskeline.IO:
+    - haskeline-0.7.4.2
+    - System-Console-Haskeline-IO.html
+    System.Console.Haskeline.History:
+    - haskeline-0.7.4.2
+    - System-Console-Haskeline-History.html
+    System.Console.Haskeline.Completion:
+    - haskeline-0.7.4.2
+    - System-Console-Haskeline-Completion.html
+    System.Console.Haskeline.MonadException:
+    - haskeline-0.7.4.2
+    - System-Console-Haskeline-MonadException.html
+  version: '0.7.4.2'
+stm:
+  modules:
+    Control.Concurrent.STM.TMVar:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM-TMVar.html
+    Control.Concurrent.STM.TSem:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM-TSem.html
+    Control.Concurrent.STM.TBQueue:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM-TBQueue.html
+    Control.Concurrent.STM.TChan:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM-TChan.html
+    Control.Concurrent.STM:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM.html
+    Control.Monad.STM:
+    - stm-2.4.5.0
+    - Control-Monad-STM.html
+    Control.Concurrent.STM.TArray:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM-TArray.html
+    Control.Concurrent.STM.TQueue:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM-TQueue.html
+    Control.Concurrent.STM.TVar:
+    - stm-2.4.5.0
+    - Control-Concurrent-STM-TVar.html
+  version: '2.4.5.0'
+Cabal:
+  modules:
+    Distribution.Types.PackageId.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-PackageId-Lens.html
+    Distribution.Simple.BuildPaths:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-BuildPaths.html
+    Distribution.Utils.LogProgress:
+    - Cabal-2.2.0.1
+    - Distribution-Utils-LogProgress.html
+    Distribution.Simple.Configure:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Configure.html
+    Distribution.TestSuite:
+    - Cabal-2.2.0.1
+    - Distribution-TestSuite.html
+    Distribution.Types.GenericPackageDescription:
+    - Cabal-2.2.0.1
+    - Distribution-Types-GenericPackageDescription.html
+    Distribution.Parsec.FieldLineStream:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-FieldLineStream.html
+    Distribution.SPDX.LicenseExpression:
+    - Cabal-2.2.0.1
+    - Distribution-SPDX-LicenseExpression.html
+    Distribution.Types.PackageName:
+    - Cabal-2.2.0.1
+    - Distribution-Types-PackageName.html
+    Distribution.SPDX.LicenseExceptionId:
+    - Cabal-2.2.0.1
+    - Distribution-SPDX-LicenseExceptionId.html
+    Distribution.Types.VersionInterval:
+    - Cabal-2.2.0.1
+    - Distribution-Types-VersionInterval.html
+    Distribution.Simple.Test.LibV09:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Test-LibV09.html
+    Distribution.Compat.ReadP:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-ReadP.html
+    Distribution.Types.MungedPackageName:
+    - Cabal-2.2.0.1
+    - Distribution-Types-MungedPackageName.html
+    Distribution.Types.Library.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Library-Lens.html
+    Distribution.Simple.PreProcess.Unlit:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-PreProcess-Unlit.html
+    Distribution.Simple.BuildToolDepends:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-BuildToolDepends.html
+    Distribution.Simple.Compiler:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Compiler.html
+    Distribution.Types.BuildType:
+    - Cabal-2.2.0.1
+    - Distribution-Types-BuildType.html
+    Distribution.Compat.Map.Strict:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Map-Strict.html
+    Distribution.Compiler:
+    - Cabal-2.2.0.1
+    - Distribution-Compiler.html
+    Distribution.License:
+    - Cabal-2.2.0.1
+    - Distribution-License.html
+    Language.Haskell.Extension:
+    - Cabal-2.2.0.1
+    - Language-Haskell-Extension.html
+    Distribution.Types.InstalledPackageInfo.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-InstalledPackageInfo-Lens.html
+    Distribution.Simple.Build:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Build.html
+    Distribution.Compat.Newtype:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Newtype.html
+    Distribution.Simple:
+    - Cabal-2.2.0.1
+    - Distribution-Simple.html
+    Distribution.Types.UnitId:
+    - Cabal-2.2.0.1
+    - Distribution-Types-UnitId.html
+    Distribution.Simple.UHC:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-UHC.html
+    Distribution.Types.ComponentInclude:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ComponentInclude.html
+    Distribution.Compat.Graph:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Graph.html
+    Distribution.Simple.Test:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Test.html
+    Distribution.Types.Mixin:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Mixin.html
+    Distribution.Simple.Haddock:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Haddock.html
+    Distribution.Types.ForeignLib.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ForeignLib-Lens.html
+    Distribution.Simple.Program.Strip:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Strip.html
+    Distribution.Backpack.PreModuleShape:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-PreModuleShape.html
+    Distribution.Simple.Doctest:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Doctest.html
+    Distribution.Simple.UserHooks:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-UserHooks.html
+    Distribution.Types.PackageDescription:
+    - Cabal-2.2.0.1
+    - Distribution-Types-PackageDescription.html
+    Distribution.Simple.Build.Macros:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Build-Macros.html
+    Distribution.Types.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Lens.html
+    Distribution.Types.ForeignLib:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ForeignLib.html
+    Distribution.Simple.PreProcess:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-PreProcess.html
+    Distribution.Types.IncludeRenaming:
+    - Cabal-2.2.0.1
+    - Distribution-Types-IncludeRenaming.html
+    Distribution.Backpack.Configure:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-Configure.html
+    Distribution.Compat.Stack:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Stack.html
+    Distribution.PackageDescription.Check:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription-Check.html
+    Distribution.Simple.Build.PathsModule:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Build-PathsModule.html
+    Distribution.PackageDescription:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription.html
+    Distribution.Parsec.ParseResult:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-ParseResult.html
+    Distribution.Types.PkgconfigDependency:
+    - Cabal-2.2.0.1
+    - Distribution-Types-PkgconfigDependency.html
+    Distribution.Types.ModuleReexport:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ModuleReexport.html
+    Distribution.PackageDescription.Parsec:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription-Parsec.html
+    Distribution.Types.PkgconfigName:
+    - Cabal-2.2.0.1
+    - Distribution-Types-PkgconfigName.html
+    Distribution.Simple.Program:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program.html
+    Distribution.Simple.PackageIndex:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-PackageIndex.html
+    Distribution.ReadE:
+    - Cabal-2.2.0.1
+    - Distribution-ReadE.html
+    Distribution.Types.TestSuite.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-TestSuite-Lens.html
+    Distribution.Utils.IOData:
+    - Cabal-2.2.0.1
+    - Distribution-Utils-IOData.html
+    Distribution.SPDX.LicenseId:
+    - Cabal-2.2.0.1
+    - Distribution-SPDX-LicenseId.html
+    Distribution.Parsec.Parser:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-Parser.html
+    Distribution.Parsec.LexerMonad:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-LexerMonad.html
+    Distribution.Simple.Program.Find:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Find.html
+    Distribution.Types.LegacyExeDependency:
+    - Cabal-2.2.0.1
+    - Distribution-Types-LegacyExeDependency.html
+    Distribution.Parsec.Newtypes:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-Newtypes.html
+    Distribution.Types.BuildInfo.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-BuildInfo-Lens.html
+    Distribution.Types.ComponentLocalBuildInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ComponentLocalBuildInfo.html
+    Distribution.Types.Executable.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Executable-Lens.html
+    Distribution.Types.Module:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Module.html
+    Distribution.Types.HookedBuildInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-HookedBuildInfo.html
+    Distribution.Types.BenchmarkInterface:
+    - Cabal-2.2.0.1
+    - Distribution-Types-BenchmarkInterface.html
+    Distribution.Compat.Time:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Time.html
+    Distribution.Backpack.LinkedComponent:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-LinkedComponent.html
+    Distribution.Types.SourceRepo.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-SourceRepo-Lens.html
+    Distribution.Compat.CharParsing:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-CharParsing.html
+    Distribution.Parsec.Field:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-Field.html
+    Distribution.SPDX.License:
+    - Cabal-2.2.0.1
+    - Distribution-SPDX-License.html
+    Distribution.Compat.CreatePipe:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-CreatePipe.html
+    Distribution.CabalSpecVersion:
+    - Cabal-2.2.0.1
+    - Distribution-CabalSpecVersion.html
+    Distribution.Types.Benchmark:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Benchmark.html
+    Distribution.Types.InstalledPackageInfo.FieldGrammar:
+    - Cabal-2.2.0.1
+    - Distribution-Types-InstalledPackageInfo-FieldGrammar.html
+    Distribution.Types.SetupBuildInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-SetupBuildInfo.html
+    Distribution.Backpack.DescribeUnitId:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-DescribeUnitId.html
+    Distribution.Parsec.Common:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-Common.html
+    Distribution.Types.AbiHash:
+    - Cabal-2.2.0.1
+    - Distribution-Types-AbiHash.html
+    Distribution.Simple.GHCJS:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-GHCJS.html
+    Distribution.Compat.Exception:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Exception.html
+    Distribution.FieldGrammar.Parsec:
+    - Cabal-2.2.0.1
+    - Distribution-FieldGrammar-Parsec.html
+    Distribution.PackageDescription.Quirks:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription-Quirks.html
+    Distribution.FieldGrammar.Class:
+    - Cabal-2.2.0.1
+    - Distribution-FieldGrammar-Class.html
+    Distribution.Types.VersionRange:
+    - Cabal-2.2.0.1
+    - Distribution-Types-VersionRange.html
+    Distribution.Simple.CCompiler:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-CCompiler.html
+    Distribution.Types.LocalBuildInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-LocalBuildInfo.html
+    Distribution.Types.TestSuiteInterface:
+    - Cabal-2.2.0.1
+    - Distribution-Types-TestSuiteInterface.html
+    Distribution.Types.SourceRepo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-SourceRepo.html
+    Distribution.Types.SetupBuildInfo.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-SetupBuildInfo-Lens.html
+    Distribution.Types.AbiDependency:
+    - Cabal-2.2.0.1
+    - Distribution-Types-AbiDependency.html
+    Distribution.Utils.Generic:
+    - Cabal-2.2.0.1
+    - Distribution-Utils-Generic.html
+    Distribution.Types.Benchmark.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Benchmark-Lens.html
+    Distribution.Simple.SrcDist:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-SrcDist.html
+    Distribution.Verbosity:
+    - Cabal-2.2.0.1
+    - Distribution-Verbosity.html
+    Distribution.Simple.Program.Run:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Run.html
+    Distribution.Types.TestType:
+    - Cabal-2.2.0.1
+    - Distribution-Types-TestType.html
+    Distribution.Simple.Hpc:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Hpc.html
+    Distribution.Types.PackageDescription.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-PackageDescription-Lens.html
+    Distribution.Compat.Directory:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Directory.html
+    Distribution.Simple.Program.Builtin:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Builtin.html
+    Distribution.Parsec.Lexer:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-Lexer.html
+    Distribution.Parsec.Class:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-Class.html
+    Distribution.Pretty:
+    - Cabal-2.2.0.1
+    - Distribution-Pretty.html
+    Distribution.Types.Condition:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Condition.html
+    Distribution.Utils.ShortText:
+    - Cabal-2.2.0.1
+    - Distribution-Utils-ShortText.html
+    Distribution.Types.AnnotatedId:
+    - Cabal-2.2.0.1
+    - Distribution-Types-AnnotatedId.html
+    Distribution.Compat.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Lens.html
+    Distribution.Simple.Program.GHC:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-GHC.html
+    Distribution.Types.DependencyMap:
+    - Cabal-2.2.0.1
+    - Distribution-Types-DependencyMap.html
+    Distribution.Simple.Program.Ar:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Ar.html
+    Distribution.Parsec.ConfVar:
+    - Cabal-2.2.0.1
+    - Distribution-Parsec-ConfVar.html
+    Distribution.Types.InstalledPackageInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-InstalledPackageInfo.html
+    Distribution.Simple.Program.Hpc:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Hpc.html
+    Distribution.Simple.Install:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Install.html
+    Distribution.FieldGrammar.FieldDescrs:
+    - Cabal-2.2.0.1
+    - Distribution-FieldGrammar-FieldDescrs.html
+    Distribution.Simple.JHC:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-JHC.html
+    Distribution.Backpack.ModSubst:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-ModSubst.html
+    Distribution.SPDX.LicenseReference:
+    - Cabal-2.2.0.1
+    - Distribution-SPDX-LicenseReference.html
+    Distribution.Simple.Program.Types:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Types.html
+    Distribution.Backpack.ModuleShape:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-ModuleShape.html
+    Distribution.Simple.Register:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Register.html
+    Distribution.Compat.DList:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-DList.html
+    Distribution.InstalledPackageInfo:
+    - Cabal-2.2.0.1
+    - Distribution-InstalledPackageInfo.html
+    Distribution.Types.ForeignLibType:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ForeignLibType.html
+    Distribution.Backpack.ComponentsGraph:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-ComponentsGraph.html
+    Distribution.Utils.Progress:
+    - Cabal-2.2.0.1
+    - Distribution-Utils-Progress.html
+    Distribution.Simple.Test.Log:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Test-Log.html
+    Distribution.Backpack.FullUnitId:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-FullUnitId.html
+    Distribution.Simple.Program.Db:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Db.html
+    Distribution.Simple.GHC:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-GHC.html
+    Distribution.Utils.MapAccum:
+    - Cabal-2.2.0.1
+    - Distribution-Utils-MapAccum.html
+    Distribution.Compat.Prelude.Internal:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Prelude-Internal.html
+    Distribution.Simple.Test.ExeV10:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Test-ExeV10.html
+    Distribution.Types.UnqualComponentName:
+    - Cabal-2.2.0.1
+    - Distribution-Types-UnqualComponentName.html
+    Distribution.Types.ForeignLibOption:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ForeignLibOption.html
+    Distribution.Types.ComponentRequestedSpec:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ComponentRequestedSpec.html
+    Distribution.Types.ExposedModule:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ExposedModule.html
+    Distribution.Simple.LHC:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-LHC.html
+    Distribution.Types.Version:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Version.html
+    Distribution.Types.ExecutableScope:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ExecutableScope.html
+    Distribution.Types.ComponentId:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ComponentId.html
+    Distribution.Simple.BuildTarget:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-BuildTarget.html
+    Distribution.SPDX:
+    - Cabal-2.2.0.1
+    - Distribution-SPDX.html
+    Distribution.Simple.Program.ResponseFile:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-ResponseFile.html
+    Distribution.Compat.Semigroup:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Semigroup.html
+    Distribution.Simple.Utils:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Utils.html
+    Distribution.PackageDescription.FieldGrammar:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription-FieldGrammar.html
+    Distribution.Backpack.ConfiguredComponent:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack-ConfiguredComponent.html
+    Distribution.Simple.Command:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Command.html
+    Distribution.Simple.Setup:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Setup.html
+    Distribution.Types.GenericPackageDescription.Lens:
+    - Cabal-2.2.0.1
+    - Distribution-Types-GenericPackageDescription-Lens.html
+    Distribution.Utils.NubList:
+    - Cabal-2.2.0.1
+    - Distribution-Utils-NubList.html
+    Distribution.Simple.HaskellSuite:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-HaskellSuite.html
+    Distribution.PackageDescription.Configuration:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription-Configuration.html
+    Distribution.Types.MungedPackageId:
+    - Cabal-2.2.0.1
+    - Distribution-Types-MungedPackageId.html
+    Distribution.Backpack:
+    - Cabal-2.2.0.1
+    - Distribution-Backpack.html
+    Distribution.Simple.Program.Ld:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Ld.html
+    Distribution.Types.Component:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Component.html
+    Distribution.Types.Library:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Library.html
+    Distribution.Make:
+    - Cabal-2.2.0.1
+    - Distribution-Make.html
+    Distribution.Package:
+    - Cabal-2.2.0.1
+    - Distribution-Package.html
+    Distribution.Types.PackageId:
+    - Cabal-2.2.0.1
+    - Distribution-Types-PackageId.html
+    Distribution.Types.Dependency:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Dependency.html
+    Distribution.Compat.Parsing:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Parsing.html
+    Distribution.Types.BenchmarkType:
+    - Cabal-2.2.0.1
+    - Distribution-Types-BenchmarkType.html
+    Distribution.Types.ModuleRenaming:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ModuleRenaming.html
+    Distribution.Version:
+    - Cabal-2.2.0.1
+    - Distribution-Version.html
+    Distribution.Types.TargetInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-TargetInfo.html
+    Distribution.Simple.Bench:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Bench.html
+    Distribution.Types.ExeDependency:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ExeDependency.html
+    Distribution.Simple.Program.HcPkg:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-HcPkg.html
+    Distribution.Compat.Binary:
+    - Cabal-2.2.0.1
+    - Distribution-Compat-Binary.html
+    Distribution.Text:
+    - Cabal-2.2.0.1
+    - Distribution-Text.html
+    Distribution.FieldGrammar.Pretty:
+    - Cabal-2.2.0.1
+    - Distribution-FieldGrammar-Pretty.html
+    Distribution.Simple.LocalBuildInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-LocalBuildInfo.html
+    Distribution.FieldGrammar:
+    - Cabal-2.2.0.1
+    - Distribution-FieldGrammar.html
+    Distribution.Types.TestSuite:
+    - Cabal-2.2.0.1
+    - Distribution-Types-TestSuite.html
+    Distribution.System:
+    - Cabal-2.2.0.1
+    - Distribution-System.html
+    Distribution.PackageDescription.Utils:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription-Utils.html
+    Distribution.Types.CondTree:
+    - Cabal-2.2.0.1
+    - Distribution-Types-CondTree.html
+    Distribution.PackageDescription.PrettyPrint:
+    - Cabal-2.2.0.1
+    - Distribution-PackageDescription-PrettyPrint.html
+    Distribution.Simple.Program.Script:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Script.html
+    Distribution.Types.Executable:
+    - Cabal-2.2.0.1
+    - Distribution-Types-Executable.html
+    Distribution.Types.BuildInfo:
+    - Cabal-2.2.0.1
+    - Distribution-Types-BuildInfo.html
+    Distribution.Types.ComponentName:
+    - Cabal-2.2.0.1
+    - Distribution-Types-ComponentName.html
+    Distribution.ModuleName:
+    - Cabal-2.2.0.1
+    - Distribution-ModuleName.html
+    Distribution.Simple.Program.Internal:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-Program-Internal.html
+    Distribution.Simple.InstallDirs:
+    - Cabal-2.2.0.1
+    - Distribution-Simple-InstallDirs.html
+  version: '2.2.0.1'
+base:
+  modules:
+    Data.Version:
+    - base-4.11.1.0
+    - Data-Version.html
+    Data.Functor.Sum:
+    - base-4.11.1.0
+    - Data-Functor-Sum.html
+    GHC.Records:
+    - base-4.11.1.0
+    - GHC-Records.html
+    Data.Functor.Product:
+    - base-4.11.1.0
+    - Data-Functor-Product.html
+    Foreign.ForeignPtr.Unsafe:
+    - base-4.11.1.0
+    - Foreign-ForeignPtr-Unsafe.html
+    GHC.Profiling:
+    - base-4.11.1.0
+    - GHC-Profiling.html
+    Control.Monad.Instances:
+    - base-4.11.1.0
+    - Control-Monad-Instances.html
+    Control.Monad.ST.Strict:
+    - base-4.11.1.0
+    - Control-Monad-ST-Strict.html
+    Control.Concurrent.MVar:
+    - base-4.11.1.0
+    - Control-Concurrent-MVar.html
+    Foreign.Marshal.Unsafe:
+    - base-4.11.1.0
+    - Foreign-Marshal-Unsafe.html
+    Text.ParserCombinators.ReadP:
+    - base-4.11.1.0
+    - Text-ParserCombinators-ReadP.html
+    Data.Ix:
+    - base-4.11.1.0
+    - Data-Ix.html
+    Foreign.Marshal.Array:
+    - base-4.11.1.0
+    - Foreign-Marshal-Array.html
+    GHC.IO.Encoding.Failure:
+    - base-4.11.1.0
+    - GHC-IO-Encoding-Failure.html
+    Data.Functor.Compose:
+    - base-4.11.1.0
+    - Data-Functor-Compose.html
+    GHC.Constants:
+    - base-4.11.1.0
+    - GHC-Constants.html
+    GHC.IO.Encoding.UTF16:
+    - base-4.11.1.0
+    - GHC-IO-Encoding-UTF16.html
+    Data.Ord:
+    - base-4.11.1.0
+    - Data-Ord.html
+    Data.Functor.Classes:
+    - base-4.11.1.0
+    - Data-Functor-Classes.html
+    System.Environment.Blank:
+    - base-4.11.1.0
+    - System-Environment-Blank.html
+    Data.Functor.Const:
+    - base-4.11.1.0
+    - Data-Functor-Const.html
+    GHC.Char:
+    - base-4.11.1.0
+    - GHC-Char.html
+    Data.Bitraversable:
+    - base-4.11.1.0
+    - Data-Bitraversable.html
+    Control.Concurrent:
+    - base-4.11.1.0
+    - Control-Concurrent.html
+    GHC.IO.Buffer:
+    - base-4.11.1.0
+    - GHC-IO-Buffer.html
+    Control.Exception.Base:
+    - base-4.11.1.0
+    - Control-Exception-Base.html
+    Control.Monad.ST.Unsafe:
+    - base-4.11.1.0
+    - Control-Monad-ST-Unsafe.html
+    Data.Int:
+    - base-4.11.1.0
+    - Data-Int.html
+    GHC.IO.BufferedIO:
+    - base-4.11.1.0
+    - GHC-IO-BufferedIO.html
+    Type.Reflection.Unsafe:
+    - base-4.11.1.0
+    - Type-Reflection-Unsafe.html
+    Data.Foldable:
+    - base-4.11.1.0
+    - Data-Foldable.html
+    System.Info:
+    - base-4.11.1.0
+    - System-Info.html
+    Control.Monad:
+    - base-4.11.1.0
+    - Control-Monad.html
+    Data.Monoid:
+    - base-4.11.1.0
+    - Data-Monoid.html
+    Data.STRef.Lazy:
+    - base-4.11.1.0
+    - Data-STRef-Lazy.html
+    Control.Concurrent.Chan:
+    - base-4.11.1.0
+    - Control-Concurrent-Chan.html
+    System.Timeout:
+    - base-4.11.1.0
+    - System-Timeout.html
+    GHC.IO.Encoding.UTF8:
+    - base-4.11.1.0
+    - GHC-IO-Encoding-UTF8.html
+    Data.STRef:
+    - base-4.11.1.0
+    - Data-STRef.html
+    Control.Concurrent.QSemN:
+    - base-4.11.1.0
+    - Control-Concurrent-QSemN.html
+    Foreign.Storable:
+    - base-4.11.1.0
+    - Foreign-Storable.html
+    GHC.Exts:
+    - base-4.11.1.0
+    - GHC-Exts.html
+    GHC.Generics:
+    - base-4.11.1.0
+    - GHC-Generics.html
+    Foreign.C.String:
+    - base-4.11.1.0
+    - Foreign-C-String.html
+    Data.Type.Equality:
+    - base-4.11.1.0
+    - Data-Type-Equality.html
+    System.Exit:
+    - base-4.11.1.0
+    - System-Exit.html
+    GHC.Conc.Signal:
+    - base-4.11.1.0
+    - GHC-Conc-Signal.html
+    Data.Semigroup:
+    - base-4.11.1.0
+    - Data-Semigroup.html
+    Foreign.C:
+    - base-4.11.1.0
+    - Foreign-C.html
+    Foreign.StablePtr:
+    - base-4.11.1.0
+    - Foreign-StablePtr.html
+    GHC.Conc:
+    - base-4.11.1.0
+    - GHC-Conc.html
+    GHC.Natural:
+    - base-4.11.1.0
+    - GHC-Natural.html
+    System.Posix.Types:
+    - base-4.11.1.0
+    - System-Posix-Types.html
+    Data.Coerce:
+    - base-4.11.1.0
+    - Data-Coerce.html
+    System.IO.Error:
+    - base-4.11.1.0
+    - System-IO-Error.html
+    Data.Type.Bool:
+    - base-4.11.1.0
+    - Data-Type-Bool.html
+    Foreign.C.Types:
+    - base-4.11.1.0
+    - Foreign-C-Types.html
+    Control.Concurrent.QSem:
+    - base-4.11.1.0
+    - Control-Concurrent-QSem.html
+    Data.Tuple:
+    - base-4.11.1.0
+    - Data-Tuple.html
+    Data.Kind:
+    - base-4.11.1.0
+    - Data-Kind.html
+    System.Mem:
+    - base-4.11.1.0
+    - System-Mem.html
+    Control.Monad.ST.Safe:
+    - base-4.11.1.0
+    - Control-Monad-ST-Safe.html
+    GHC.OverloadedLabels:
+    - base-4.11.1.0
+    - GHC-OverloadedLabels.html
+    GHC.ByteOrder:
+    - base-4.11.1.0
+    - GHC-ByteOrder.html
+    GHC.Event:
+    - base-4.11.1.0
+    - GHC-Event.html
+    GHC.RTS.Flags:
+    - base-4.11.1.0
+    - GHC-RTS-Flags.html
+    Data.Complex:
+    - base-4.11.1.0
+    - Data-Complex.html
+    System.Environment:
+    - base-4.11.1.0
+    - System-Environment.html
+    Control.Exception:
+    - base-4.11.1.0
+    - Control-Exception.html
+    Data.Data:
+    - base-4.11.1.0
+    - Data-Data.html
+    Foreign.Ptr:
+    - base-4.11.1.0
+    - Foreign-Ptr.html
+    Foreign.Safe:
+    - base-4.11.1.0
+    - Foreign-Safe.html
+    Data.Functor.Identity:
+    - base-4.11.1.0
+    - Data-Functor-Identity.html
+    Control.Monad.ST:
+    - base-4.11.1.0
+    - Control-Monad-ST.html
+    GHC.Stack.CCS:
+    - base-4.11.1.0
+    - GHC-Stack-CCS.html
+    GHC.IO.Encoding:
+    - base-4.11.1.0
+    - GHC-IO-Encoding.html
+    Foreign.Marshal.Utils:
+    - base-4.11.1.0
+    - Foreign-Marshal-Utils.html
+    Text.Read:
+    - base-4.11.1.0
+    - Text-Read.html
+    Data.Functor:
+    - base-4.11.1.0
+    - Data-Functor.html
+    GHC.IO.Encoding.UTF32:
+    - base-4.11.1.0
+    - GHC-IO-Encoding-UTF32.html
+    Control.Monad.Fix:
+    - base-4.11.1.0
+    - Control-Monad-Fix.html
+    Unsafe.Coerce:
+    - base-4.11.1.0
+    - Unsafe-Coerce.html
+    Type.Reflection:
+    - base-4.11.1.0
+    - Type-Reflection.html
+    Control.Category:
+    - base-4.11.1.0
+    - Control-Category.html
+    Data.Typeable:
+    - base-4.11.1.0
+    - Data-Typeable.html
+    GHC.Foreign:
+    - base-4.11.1.0
+    - GHC-Foreign.html
+    GHC.StaticPtr:
+    - base-4.11.1.0
+    - GHC-StaticPtr.html
+    Data.Maybe:
+    - base-4.11.1.0
+    - Data-Maybe.html
+    Numeric.Natural:
+    - base-4.11.1.0
+    - Numeric-Natural.html
+    GHC.Stack:
+    - base-4.11.1.0
+    - GHC-Stack.html
+    GHC.Fingerprint.Type:
+    - base-4.11.1.0
+    - GHC-Fingerprint-Type.html
+    Control.Monad.Fail:
+    - base-4.11.1.0
+    - Control-Monad-Fail.html
+    Data.Function:
+    - base-4.11.1.0
+    - Data-Function.html
+    Data.List:
+    - base-4.11.1.0
+    - Data-List.html
+    GHC.IO.Encoding.Types:
+    - base-4.11.1.0
+    - GHC-IO-Encoding-Types.html
+    GHC.IO.Handle.FD:
+    - base-4.11.1.0
+    - GHC-IO-Handle-FD.html
+    Text.Printf:
+    - base-4.11.1.0
+    - Text-Printf.html
+    System.Console.GetOpt:
+    - base-4.11.1.0
+    - System-Console-GetOpt.html
+    GHC.OldList:
+    - base-4.11.1.0
+    - GHC-OldList.html
+    GHC.ExecutionStack.Internal:
+    - base-4.11.1.0
+    - GHC-ExecutionStack-Internal.html
+    Foreign.Marshal.Safe:
+    - base-4.11.1.0
+    - Foreign-Marshal-Safe.html
+    Prelude:
+    - base-4.11.1.0
+    - Prelude.html
+    Data.Ratio:
+    - base-4.11.1.0
+    - Data-Ratio.html
+    Text.Show.Functions:
+    - base-4.11.1.0
+    - Text-Show-Functions.html
+    GHC.Environment:
+    - base-4.11.1.0
+    - GHC-Environment.html
+    Foreign.ForeignPtr.Safe:
+    - base-4.11.1.0
+    - Foreign-ForeignPtr-Safe.html
+    Data.Eq:
+    - base-4.11.1.0
+    - Data-Eq.html
+    GHC.Conc.Sync:
+    - base-4.11.1.0
+    - GHC-Conc-Sync.html
+    Data.Bifunctor:
+    - base-4.11.1.0
+    - Data-Bifunctor.html
+    Foreign.Marshal.Pool:
+    - base-4.11.1.0
+    - Foreign-Marshal-Pool.html
+    GHC.IO.Device:
+    - base-4.11.1.0
+    - GHC-IO-Device.html
+    GHC.TypeNats:
+    - base-4.11.1.0
+    - GHC-TypeNats.html
+    System.Mem.StableName:
+    - base-4.11.1.0
+    - System-Mem-StableName.html
+    Data.Bits:
+    - base-4.11.1.0
+    - Data-Bits.html
+    GHC.Clock:
+    - base-4.11.1.0
+    - GHC-Clock.html
+    Data.Void:
+    - base-4.11.1.0
+    - Data-Void.html
+    Data.Proxy:
+    - base-4.11.1.0
+    - Data-Proxy.html
+    GHC.Fingerprint:
+    - base-4.11.1.0
+    - GHC-Fingerprint.html
+    Control.Monad.Zip:
+    - base-4.11.1.0
+    - Control-Monad-Zip.html
+    Data.Unique:
+    - base-4.11.1.0
+    - Data-Unique.html
+    Data.STRef.Strict:
+    - base-4.11.1.0
+    - Data-STRef-Strict.html
+    Control.Monad.ST.Lazy.Unsafe:
+    - base-4.11.1.0
+    - Control-Monad-ST-Lazy-Unsafe.html
+    GHC.ConsoleHandler:
+    - base-4.11.1.0
+    - GHC-ConsoleHandler.html
+    Foreign.C.Error:
+    - base-4.11.1.0
+    - Foreign-C-Error.html
+    System.IO:
+    - base-4.11.1.0
+    - System-IO.html
+    GHC.IO.Handle.Lock:
+    - base-4.11.1.0
+    - GHC-IO-Handle-Lock.html
+    Foreign.ForeignPtr:
+    - base-4.11.1.0
+    - Foreign-ForeignPtr.html
+    Data.Type.Coercion:
+    - base-4.11.1.0
+    - Data-Type-Coercion.html
+    GHC.TypeLits:
+    - base-4.11.1.0
+    - GHC-TypeLits.html
+    Data.List.NonEmpty:
+    - base-4.11.1.0
+    - Data-List-NonEmpty.html
+    GHC.IO.Handle:
+    - base-4.11.1.0
+    - GHC-IO-Handle.html
+    Text.Show:
+    - base-4.11.1.0
+    - Text-Show.html
+    System.CPUTime:
+    - base-4.11.1.0
+    - System-CPUTime.html
+    Foreign.Marshal:
+    - base-4.11.1.0
+    - Foreign-Marshal.html
+    Data.Word:
+    - base-4.11.1.0
+    - Data-Word.html
+    System.Mem.Weak:
+    - base-4.11.1.0
+    - System-Mem-Weak.html
+    Data.Bool:
+    - base-4.11.1.0
+    - Data-Bool.html
+    GHC.IO.Encoding.Latin1:
+    - base-4.11.1.0
+    - GHC-IO-Encoding-Latin1.html
+    Control.Arrow:
+    - base-4.11.1.0
+    - Control-Arrow.html
+    Data.Fixed:
+    - base-4.11.1.0
+    - Data-Fixed.html
+    Control.Monad.IO.Class:
+    - base-4.11.1.0
+    - Control-Monad-IO-Class.html
+    Data.String:
+    - base-4.11.1.0
+    - Data-String.html
+    Data.Dynamic:
+    - base-4.11.1.0
+    - Data-Dynamic.html
+    Numeric:
+    - base-4.11.1.0
+    - Numeric.html
+    Text.ParserCombinators.ReadPrec:
+    - base-4.11.1.0
+    - Text-ParserCombinators-ReadPrec.html
+    GHC.Conc.IO:
+    - base-4.11.1.0
+    - GHC-Conc-IO.html
+    GHC.Stats:
+    - base-4.11.1.0
+    - GHC-Stats.html
+    Foreign.Concurrent:
+    - base-4.11.1.0
+    - Foreign-Concurrent.html
+    Foreign.Marshal.Alloc:
+    - base-4.11.1.0
+    - Foreign-Marshal-Alloc.html
+    Text.Read.Lex:
+    - base-4.11.1.0
+    - Text-Read-Lex.html
+    GHC.ExecutionStack:
+    - base-4.11.1.0
+    - GHC-ExecutionStack.html
+    Foreign:
+    - base-4.11.1.0
+    - Foreign.html
+    Foreign.Marshal.Error:
+    - base-4.11.1.0
+    - Foreign-Marshal-Error.html
+    Debug.Trace:
+    - base-4.11.1.0
+    - Debug-Trace.html
+    Data.Char:
+    - base-4.11.1.0
+    - Data-Char.html
+    Control.Monad.ST.Lazy.Safe:
+    - base-4.11.1.0
+    - Control-Monad-ST-Lazy-Safe.html
+    Data.Bifoldable:
+    - base-4.11.1.0
+    - Data-Bifoldable.html
+    Data.IORef:
+    - base-4.11.1.0
+    - Data-IORef.html
+    Data.Either:
+    - base-4.11.1.0
+    - Data-Either.html
+    Control.Applicative:
+    - base-4.11.1.0
+    - Control-Applicative.html
+    GHC.IO.Encoding.CodePage:
+    - base-4.11.1.0
+    - GHC-IO-Encoding-CodePage.html
+    Control.Monad.ST.Lazy:
+    - base-4.11.1.0
+    - Control-Monad-ST-Lazy.html
+    System.IO.Unsafe:
+    - base-4.11.1.0
+    - System-IO-Unsafe.html
+    Data.Traversable:
+    - base-4.11.1.0
+    - Data-Traversable.html
+  version: '4.11.1.0'
+time:
+  modules:
+    Data.Time.Calendar.Julian:
+    - time-1.8.0.2
+    - Data-Time-Calendar-Julian.html
+    Data.Time.Clock.TAI:
+    - time-1.8.0.2
+    - Data-Time-Clock-TAI.html
+    Data.Time.Calendar:
+    - time-1.8.0.2
+    - Data-Time-Calendar.html
+    Data.Time.Calendar.Easter:
+    - time-1.8.0.2
+    - Data-Time-Calendar-Easter.html
+    Data.Time.LocalTime:
+    - time-1.8.0.2
+    - Data-Time-LocalTime.html
+    Data.Time.Clock:
+    - time-1.8.0.2
+    - Data-Time-Clock.html
+    Data.Time.Calendar.MonthDay:
+    - time-1.8.0.2
+    - Data-Time-Calendar-MonthDay.html
+    Data.Time.Format:
+    - time-1.8.0.2
+    - Data-Time-Format.html
+    Data.Time.Clock.POSIX:
+    - time-1.8.0.2
+    - Data-Time-Clock-POSIX.html
+    Data.Time.Calendar.OrdinalDate:
+    - time-1.8.0.2
+    - Data-Time-Calendar-OrdinalDate.html
+    Data.Time:
+    - time-1.8.0.2
+    - Data-Time.html
+    Data.Time.Clock.System:
+    - time-1.8.0.2
+    - Data-Time-Clock-System.html
+    Data.Time.Calendar.WeekDate:
+    - time-1.8.0.2
+    - Data-Time-Calendar-WeekDate.html
+  version: '1.8.0.2'
+xhtml:
+  modules:
+    Text.XHtml.Frameset:
+    - xhtml-3000.2.2.1
+    - Text-XHtml-Frameset.html
+    Text.XHtml.Strict:
+    - xhtml-3000.2.2.1
+    - Text-XHtml-Strict.html
+    Text.XHtml:
+    - xhtml-3000.2.2.1
+    - Text-XHtml.html
+    Text.XHtml.Transitional:
+    - xhtml-3000.2.2.1
+    - Text-XHtml-Transitional.html
+    Text.XHtml.Table:
+    - xhtml-3000.2.2.1
+    - Text-XHtml-Table.html
+  version: '3000.2.2.1'
+text:
+  modules:
+    Data.Text.Array:
+    - text-1.2.3.0
+    - Data-Text-Array.html
+    Data.Text.Internal.Fusion.Size:
+    - text-1.2.3.0
+    - Data-Text-Internal-Fusion-Size.html
+    Data.Text.Lazy.Read:
+    - text-1.2.3.0
+    - Data-Text-Lazy-Read.html
+    Data.Text.Lazy.Internal:
+    - text-1.2.3.0
+    - Data-Text-Lazy-Internal.html
+    Data.Text.Internal.Lazy.Search:
+    - text-1.2.3.0
+    - Data-Text-Internal-Lazy-Search.html
+    Data.Text.Internal.Builder.Functions:
+    - text-1.2.3.0
+    - Data-Text-Internal-Builder-Functions.html
+    Data.Text.Internal.Search:
+    - text-1.2.3.0
+    - Data-Text-Internal-Search.html
+    Data.Text.Internal.Fusion.CaseMapping:
+    - text-1.2.3.0
+    - Data-Text-Internal-Fusion-CaseMapping.html
+    Data.Text.Internal.Builder:
+    - text-1.2.3.0
+    - Data-Text-Internal-Builder.html
+    Data.Text.Internal.Unsafe.Char:
+    - text-1.2.3.0
+    - Data-Text-Internal-Unsafe-Char.html
+    Data.Text.Lazy.Builder.RealFloat:
+    - text-1.2.3.0
+    - Data-Text-Lazy-Builder-RealFloat.html
+    Data.Text.IO:
+    - text-1.2.3.0
+    - Data-Text-IO.html
+    Data.Text.Foreign:
+    - text-1.2.3.0
+    - Data-Text-Foreign.html
+    Data.Text.Lazy:
+    - text-1.2.3.0
+    - Data-Text-Lazy.html
+    Data.Text.Internal.Encoding.Utf8:
+    - text-1.2.3.0
+    - Data-Text-Internal-Encoding-Utf8.html
+    Data.Text.Internal.Builder.RealFloat.Functions:
+    - text-1.2.3.0
+    - Data-Text-Internal-Builder-RealFloat-Functions.html
+    Data.Text.Lazy.Encoding:
+    - text-1.2.3.0
+    - Data-Text-Lazy-Encoding.html
+    Data.Text.Internal.Lazy.Encoding.Fusion:
+    - text-1.2.3.0
+    - Data-Text-Internal-Lazy-Encoding-Fusion.html
+    Data.Text.Internal.Private:
+    - text-1.2.3.0
+    - Data-Text-Internal-Private.html
+    Data.Text.Internal.Fusion.Types:
+    - text-1.2.3.0
+    - Data-Text-Internal-Fusion-Types.html
+    Data.Text.Internal.Encoding.Fusion:
+    - text-1.2.3.0
+    - Data-Text-Internal-Encoding-Fusion.html
+    Data.Text.Internal.Fusion:
+    - text-1.2.3.0
+    - Data-Text-Internal-Fusion.html
+    Data.Text.Lazy.Builder:
+    - text-1.2.3.0
+    - Data-Text-Lazy-Builder.html
+    Data.Text.Internal.Lazy.Fusion:
+    - text-1.2.3.0
+    - Data-Text-Internal-Lazy-Fusion.html
+    Data.Text.Unsafe:
+    - text-1.2.3.0
+    - Data-Text-Unsafe.html
+    Data.Text.Read:
+    - text-1.2.3.0
+    - Data-Text-Read.html
+    Data.Text.Internal.Encoding.Utf32:
+    - text-1.2.3.0
+    - Data-Text-Internal-Encoding-Utf32.html
+    Data.Text.Internal.Fusion.Common:
+    - text-1.2.3.0
+    - Data-Text-Internal-Fusion-Common.html
+    Data.Text.Internal.Builder.Int.Digits:
+    - text-1.2.3.0
+    - Data-Text-Internal-Builder-Int-Digits.html
+    Data.Text.Internal.Lazy:
+    - text-1.2.3.0
+    - Data-Text-Internal-Lazy.html
+    Data.Text.Internal:
+    - text-1.2.3.0
+    - Data-Text-Internal.html
+    Data.Text.Internal.Encoding.Fusion.Common:
+    - text-1.2.3.0
+    - Data-Text-Internal-Encoding-Fusion-Common.html
+    Data.Text.Internal.IO:
+    - text-1.2.3.0
+    - Data-Text-Internal-IO.html
+    Data.Text.Internal.Functions:
+    - text-1.2.3.0
+    - Data-Text-Internal-Functions.html
+    Data.Text.Encoding.Error:
+    - text-1.2.3.0
+    - Data-Text-Encoding-Error.html
+    Data.Text.Internal.Unsafe.Shift:
+    - text-1.2.3.0
+    - Data-Text-Internal-Unsafe-Shift.html
+    Data.Text:
+    - text-1.2.3.0
+    - Data-Text.html
+    Data.Text.Lazy.IO:
+    - text-1.2.3.0
+    - Data-Text-Lazy-IO.html
+    Data.Text.Internal.Unsafe:
+    - text-1.2.3.0
+    - Data-Text-Internal-Unsafe.html
+    Data.Text.Internal.Read:
+    - text-1.2.3.0
+    - Data-Text-Internal-Read.html
+    Data.Text.Encoding:
+    - text-1.2.3.0
+    - Data-Text-Encoding.html
+    Data.Text.Lazy.Builder.Int:
+    - text-1.2.3.0
+    - Data-Text-Lazy-Builder-Int.html
+    Data.Text.Internal.Encoding.Utf16:
+    - text-1.2.3.0
+    - Data-Text-Internal-Encoding-Utf16.html
+  version: '1.2.3.0'
+hint:
+  modules:
+    Language.Haskell.Interpreter.Unsafe:
+    - hint-0.8.0
+    - Language-Haskell-Interpreter-Unsafe.html
+    Hint.Internal:
+    - hint-0.8.0
+    - Hint-Internal.html
+    Language.Haskell.Interpreter:
+    - hint-0.8.0
+    - Language-Haskell-Interpreter.html
+    Language.Haskell.Interpreter.Extension:
+    - hint-0.8.0
+    - Language-Haskell-Interpreter-Extension.html
+  version: '0.8.0'
+hpc:
+  modules:
+    Trace.Hpc.Reflect:
+    - hpc-0.6.0.3
+    - Trace-Hpc-Reflect.html
+    Trace.Hpc.Tix:
+    - hpc-0.6.0.3
+    - Trace-Hpc-Tix.html
+    Trace.Hpc.Mix:
+    - hpc-0.6.0.3
+    - Trace-Hpc-Mix.html
+    Trace.Hpc.Util:
+    - hpc-0.6.0.3
+    - Trace-Hpc-Util.html
+  version: '0.6.0.3'
+filepath:
+  modules:
+    System.FilePath:
+    - filepath-1.4.2
+    - System-FilePath.html
+    System.FilePath.Windows:
+    - filepath-1.4.2
+    - System-FilePath-Windows.html
+    System.FilePath.Posix:
+    - filepath-1.4.2
+    - System-FilePath-Posix.html
+  version: '1.4.2'
+process:
+  modules:
+    System.Process.Internals:
+    - process-1.6.3.0
+    - System-Process-Internals.html
+    System.Cmd:
+    - process-1.6.3.0
+    - System-Cmd.html
+    System.Process:
+    - process-1.6.3.0
+    - System-Process.html
+  version: '1.6.3.0'
+parsec:
+  modules:
+    Text.Parsec.Combinator:
+    - parsec-3.1.13.0
+    - Text-Parsec-Combinator.html
+    Text.ParserCombinators.Parsec.Perm:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Perm.html
+    Text.ParserCombinators.Parsec.Expr:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Expr.html
+    Text.Parsec.Prim:
+    - parsec-3.1.13.0
+    - Text-Parsec-Prim.html
+    Text.Parsec.Token:
+    - parsec-3.1.13.0
+    - Text-Parsec-Token.html
+    Text.Parsec.Error:
+    - parsec-3.1.13.0
+    - Text-Parsec-Error.html
+    Text.ParserCombinators.Parsec:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec.html
+    Text.Parsec.Char:
+    - parsec-3.1.13.0
+    - Text-Parsec-Char.html
+    Text.Parsec.Text:
+    - parsec-3.1.13.0
+    - Text-Parsec-Text.html
+    Text.Parsec.String:
+    - parsec-3.1.13.0
+    - Text-Parsec-String.html
+    Text.ParserCombinators.Parsec.Token:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Token.html
+    Text.Parsec.Text.Lazy:
+    - parsec-3.1.13.0
+    - Text-Parsec-Text-Lazy.html
+    Text.Parsec.Language:
+    - parsec-3.1.13.0
+    - Text-Parsec-Language.html
+    Text.ParserCombinators.Parsec.Pos:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Pos.html
+    Text.Parsec.Expr:
+    - parsec-3.1.13.0
+    - Text-Parsec-Expr.html
+    Text.Parsec.ByteString:
+    - parsec-3.1.13.0
+    - Text-Parsec-ByteString.html
+    Text.Parsec.ByteString.Lazy:
+    - parsec-3.1.13.0
+    - Text-Parsec-ByteString-Lazy.html
+    Text.Parsec.Pos:
+    - parsec-3.1.13.0
+    - Text-Parsec-Pos.html
+    Text.ParserCombinators.Parsec.Language:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Language.html
+    Text.ParserCombinators.Parsec.Char:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Char.html
+    Text.Parsec:
+    - parsec-3.1.13.0
+    - Text-Parsec.html
+    Text.ParserCombinators.Parsec.Error:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Error.html
+    Text.ParserCombinators.Parsec.Prim:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Prim.html
+    Text.ParserCombinators.Parsec.Combinator:
+    - parsec-3.1.13.0
+    - Text-ParserCombinators-Parsec-Combinator.html
+    Text.Parsec.Perm:
+    - parsec-3.1.13.0
+    - Text-Parsec-Perm.html
+  version: '3.1.13.0'
+array:
+  modules:
+    Data.Array.IO:
+    - array-0.5.2.0
+    - Data-Array-IO.html
+    Data.Array.MArray:
+    - array-0.5.2.0
+    - Data-Array-MArray.html
+    Data.Array.Unboxed:
+    - array-0.5.2.0
+    - Data-Array-Unboxed.html
+    Data.Array.Storable.Safe:
+    - array-0.5.2.0
+    - Data-Array-Storable-Safe.html
+    Data.Array.Storable:
+    - array-0.5.2.0
+    - Data-Array-Storable.html
+    Data.Array.ST.Safe:
+    - array-0.5.2.0
+    - Data-Array-ST-Safe.html
+    Data.Array:
+    - array-0.5.2.0
+    - Data-Array.html
+    Data.Array.MArray.Safe:
+    - array-0.5.2.0
+    - Data-Array-MArray-Safe.html
+    Data.Array.IO.Safe:
+    - array-0.5.2.0
+    - Data-Array-IO-Safe.html
+    Data.Array.Unsafe:
+    - array-0.5.2.0
+    - Data-Array-Unsafe.html
+    Data.Array.ST:
+    - array-0.5.2.0
+    - Data-Array-ST.html
+    Data.Array.IArray:
+    - array-0.5.2.0
+    - Data-Array-IArray.html
+  version: '0.5.2.0'
+integer-gmp:
+  modules:
+    GHC.Integer.GMP.Internals:
+    - integer-gmp-1.0.2.0
+    - GHC-Integer-GMP-Internals.html
+    GHC.Integer:
+    - integer-gmp-1.0.2.0
+    - GHC-Integer.html
+    GHC.Integer.Logarithms:
+    - integer-gmp-1.0.2.0
+    - GHC-Integer-Logarithms.html
+  version: '1.0.2.0'
+versions:
+  modules:
+    Data.Versions:
+    - versions-3.4.0
+    - Data-Versions.html
+  version: '3.4.0'
+containers:
+  modules:
+    Data.Sequence.Internal.Sorting:
+    - containers-0.5.11.0
+    - Data-Sequence-Internal-Sorting.html
+    Data.Map.Merge.Lazy:
+    - containers-0.5.11.0
+    - Data-Map-Merge-Lazy.html
+    Data.IntMap.Strict:
+    - containers-0.5.11.0
+    - Data-IntMap-Strict.html
+    Data.Map.Internal.Debug:
+    - containers-0.5.11.0
+    - Data-Map-Internal-Debug.html
+    Data.IntMap.Merge.Strict:
+    - containers-0.5.11.0
+    - Data-IntMap-Merge-Strict.html
+    Data.Map.Lazy:
+    - containers-0.5.11.0
+    - Data-Map-Lazy.html
+    Data.Map:
+    - containers-0.5.11.0
+    - Data-Map.html
+    Data.Set.Internal:
+    - containers-0.5.11.0
+    - Data-Set-Internal.html
+    Data.IntMap.Internal:
+    - containers-0.5.11.0
+    - Data-IntMap-Internal.html
+    Data.Sequence.Internal:
+    - containers-0.5.11.0
+    - Data-Sequence-Internal.html
+    Data.Tree:
+    - containers-0.5.11.0
+    - Data-Tree.html
+    Data.IntSet.Internal:
+    - containers-0.5.11.0
+    - Data-IntSet-Internal.html
+    Data.Map.Strict.Internal:
+    - containers-0.5.11.0
+    - Data-Map-Strict-Internal.html
+    Data.IntMap:
+    - containers-0.5.11.0
+    - Data-IntMap.html
+    Data.Sequence:
+    - containers-0.5.11.0
+    - Data-Sequence.html
+    Utils.Containers.Internal.BitQueue:
+    - containers-0.5.11.0
+    - Utils-Containers-Internal-BitQueue.html
+    Data.Set:
+    - containers-0.5.11.0
+    - Data-Set.html
+    Data.IntMap.Internal.Debug:
+    - containers-0.5.11.0
+    - Data-IntMap-Internal-Debug.html
+    Data.Map.Strict:
+    - containers-0.5.11.0
+    - Data-Map-Strict.html
+    Data.IntSet:
+    - containers-0.5.11.0
+    - Data-IntSet.html
+    Data.IntMap.Merge.Lazy:
+    - containers-0.5.11.0
+    - Data-IntMap-Merge-Lazy.html
+    Data.Graph:
+    - containers-0.5.11.0
+    - Data-Graph.html
+    Data.Map.Internal:
+    - containers-0.5.11.0
+    - Data-Map-Internal.html
+    Utils.Containers.Internal.StrictPair:
+    - containers-0.5.11.0
+    - Utils-Containers-Internal-StrictPair.html
+    Data.Map.Merge.Strict:
+    - containers-0.5.11.0
+    - Data-Map-Merge-Strict.html
+    Utils.Containers.Internal.BitUtil:
+    - containers-0.5.11.0
+    - Utils-Containers-Internal-BitUtil.html
+    Data.IntMap.Lazy:
+    - containers-0.5.11.0
+    - Data-IntMap-Lazy.html
+  version: '0.5.11.0'
+ghc-boot:
+  modules:
+    GHC.LanguageExtensions:
+    - ghc-boot-8.4.3
+    - GHC-LanguageExtensions.html
+    GHC.Serialized:
+    - ghc-boot-8.4.3
+    - GHC-Serialized.html
+    GHC.ForeignSrcLang:
+    - ghc-boot-8.4.3
+    - GHC-ForeignSrcLang.html
+    GHC.PackageDb:
+    - ghc-boot-8.4.3
+    - GHC-PackageDb.html
+  version: '8.4.3'
+binary:
+  modules:
+    Data.Binary.Get.Internal:
+    - binary-0.8.5.1
+    - Data-Binary-Get-Internal.html
+    Data.Binary.Builder:
+    - binary-0.8.5.1
+    - Data-Binary-Builder.html
+    Data.Binary.Get:
+    - binary-0.8.5.1
+    - Data-Binary-Get.html
+    Data.Binary:
+    - binary-0.8.5.1
+    - Data-Binary.html
+    Data.Binary.Put:
+    - binary-0.8.5.1
+    - Data-Binary-Put.html
+  version: '0.8.5.1'
+ghc-prim:
+  modules:
+    GHC.Prim:
+    - ghc-prim-0.5.2.0
+    - GHC-Prim.html
+    GHC.CString:
+    - ghc-prim-0.5.2.0
+    - GHC-CString.html
+    GHC.PrimopWrappers:
+    - ghc-prim-0.5.2.0
+    - GHC-PrimopWrappers.html
+    GHC.Tuple:
+    - ghc-prim-0.5.2.0
+    - GHC-Tuple.html
+    GHC.Magic:
+    - ghc-prim-0.5.2.0
+    - GHC-Magic.html
+    GHC.Debug:
+    - ghc-prim-0.5.2.0
+    - GHC-Debug.html
+    GHC.Types:
+    - ghc-prim-0.5.2.0
+    - GHC-Types.html
+  version: '0.5.2.0'
+diagrams-builder:
+  modules:
+    Diagrams.Builder.CmdLine:
+    - diagrams-builder-0.8.0.3
+    - Diagrams-Builder-CmdLine.html
+    Diagrams.Builder.Opts:
+    - diagrams-builder-0.8.0.3
+    - Diagrams-Builder-Opts.html
+    Diagrams.Builder.Modules:
+    - diagrams-builder-0.8.0.3
+    - Diagrams-Builder-Modules.html
+    Diagrams.Builder:
+    - diagrams-builder-0.8.0.3
+    - Diagrams-Builder.html
+  version: '0.8.0.3'
+mtl:
+  modules:
+    Control.Monad.RWS:
+    - mtl-2.2.2
+    - Control-Monad-RWS.html
+    Control.Monad.Cont:
+    - mtl-2.2.2
+    - Control-Monad-Cont.html
+    Control.Monad.RWS.Lazy:
+    - mtl-2.2.2
+    - Control-Monad-RWS-Lazy.html
+    Control.Monad.Reader:
+    - mtl-2.2.2
+    - Control-Monad-Reader.html
+    Control.Monad.Error:
+    - mtl-2.2.2
+    - Control-Monad-Error.html
+    Control.Monad.State.Class:
+    - mtl-2.2.2
+    - Control-Monad-State-Class.html
+    Control.Monad.State.Lazy:
+    - mtl-2.2.2
+    - Control-Monad-State-Lazy.html
+    Control.Monad.Writer.Class:
+    - mtl-2.2.2
+    - Control-Monad-Writer-Class.html
+    Control.Monad.Except:
+    - mtl-2.2.2
+    - Control-Monad-Except.html
+    Control.Monad.Writer.Lazy:
+    - mtl-2.2.2
+    - Control-Monad-Writer-Lazy.html
+    Control.Monad.State.Strict:
+    - mtl-2.2.2
+    - Control-Monad-State-Strict.html
+    Control.Monad.Trans:
+    - mtl-2.2.2
+    - Control-Monad-Trans.html
+    Control.Monad.List:
+    - mtl-2.2.2
+    - Control-Monad-List.html
+    Control.Monad.Writer.Strict:
+    - mtl-2.2.2
+    - Control-Monad-Writer-Strict.html
+    Control.Monad.RWS.Strict:
+    - mtl-2.2.2
+    - Control-Monad-RWS-Strict.html
+    Control.Monad.RWS.Class:
+    - mtl-2.2.2
+    - Control-Monad-RWS-Class.html
+    Control.Monad.Cont.Class:
+    - mtl-2.2.2
+    - Control-Monad-Cont-Class.html
+    Control.Monad.Identity:
+    - mtl-2.2.2
+    - Control-Monad-Identity.html
+    Control.Monad.Reader.Class:
+    - mtl-2.2.2
+    - Control-Monad-Reader-Class.html
+    Control.Monad.Error.Class:
+    - mtl-2.2.2
+    - Control-Monad-Error-Class.html
+    Control.Monad.State:
+    - mtl-2.2.2
+    - Control-Monad-State.html
+    Control.Monad.Writer:
+    - mtl-2.2.2
+    - Control-Monad-Writer.html
+  version: '2.2.2'
+ghci:
+  modules:
+    GHCi.ObjLink:
+    - ghci-8.4.3
+    - GHCi-ObjLink.html
+    GHCi.RemoteTypes:
+    - ghci-8.4.3
+    - GHCi-RemoteTypes.html
+    GHCi.Run:
+    - ghci-8.4.3
+    - GHCi-Run.html
+    GHCi.ResolvedBCO:
+    - ghci-8.4.3
+    - GHCi-ResolvedBCO.html
+    GHCi.BreakArray:
+    - ghci-8.4.3
+    - GHCi-BreakArray.html
+    GHCi.BinaryArray:
+    - ghci-8.4.3
+    - GHCi-BinaryArray.html
+    GHCi.InfoTable:
+    - ghci-8.4.3
+    - GHCi-InfoTable.html
+    GHCi.Signals:
+    - ghci-8.4.3
+    - GHCi-Signals.html
+    GHCi.TH:
+    - ghci-8.4.3
+    - GHCi-TH.html
+    GHCi.FFI:
+    - ghci-8.4.3
+    - GHCi-FFI.html
+    GHCi.Message:
+    - ghci-8.4.3
+    - GHCi-Message.html
+    GHCi.StaticPtrTable:
+    - ghci-8.4.3
+    - GHCi-StaticPtrTable.html
+    SizedSeq:
+    - ghci-8.4.3
+    - SizedSeq.html
+    GHCi.TH.Binary:
+    - ghci-8.4.3
+    - GHCi-TH-Binary.html
+    GHCi.CreateBCO:
+    - ghci-8.4.3
+    - GHCi-CreateBCO.html
+  version: '8.4.3'
+terminfo:
+  modules:
+    System.Console.Terminfo.Edit:
+    - terminfo-0.4.1.1
+    - System-Console-Terminfo-Edit.html
+    System.Console.Terminfo.Effects:
+    - terminfo-0.4.1.1
+    - System-Console-Terminfo-Effects.html
+    System.Console.Terminfo.Base:
+    - terminfo-0.4.1.1
+    - System-Console-Terminfo-Base.html
+    System.Console.Terminfo.Color:
+    - terminfo-0.4.1.1
+    - System-Console-Terminfo-Color.html
+    System.Console.Terminfo:
+    - terminfo-0.4.1.1
+    - System-Console-Terminfo.html
+    System.Console.Terminfo.Keys:
+    - terminfo-0.4.1.1
+    - System-Console-Terminfo-Keys.html
+    System.Console.Terminfo.Cursor:
+    - terminfo-0.4.1.1
+    - System-Console-Terminfo-Cursor.html
+  version: '0.4.1.1'
+transformers:
+  modules:
+    Control.Monad.Trans.Class:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Class.html
+    Control.Monad.Trans.Identity:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Identity.html
+    Data.Functor.Reverse:
+    - transformers-0.5.5.0
+    - Data-Functor-Reverse.html
+    Control.Applicative.Backwards:
+    - transformers-0.5.5.0
+    - Control-Applicative-Backwards.html
+    Control.Monad.Trans.Error:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Error.html
+    Control.Monad.Trans.State:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-State.html
+    Control.Monad.Trans.Writer:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Writer.html
+    Control.Monad.Trans.Writer.Strict:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Writer-Strict.html
+    Control.Monad.Trans.List:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-List.html
+    Control.Monad.Trans.State.Strict:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-State-Strict.html
+    Control.Monad.Trans.Maybe:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Maybe.html
+    Control.Monad.Trans.RWS.Strict:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-RWS-Strict.html
+    Data.Functor.Constant:
+    - transformers-0.5.5.0
+    - Data-Functor-Constant.html
+    Control.Monad.Signatures:
+    - transformers-0.5.5.0
+    - Control-Monad-Signatures.html
+    Control.Monad.Trans.RWS.Lazy:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-RWS-Lazy.html
+    Control.Monad.Trans.Cont:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Cont.html
+    Control.Monad.Trans.RWS:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-RWS.html
+    Control.Monad.Trans.Reader:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Reader.html
+    Control.Monad.Trans.Select:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Select.html
+    Control.Monad.Trans.State.Lazy:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-State-Lazy.html
+    Control.Monad.Trans.Writer.Lazy:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Writer-Lazy.html
+    Control.Monad.Trans.Except:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Except.html
+    Control.Applicative.Lift:
+    - transformers-0.5.5.0
+    - Control-Applicative-Lift.html
+    Control.Monad.Trans.Accum:
+    - transformers-0.5.5.0
+    - Control-Monad-Trans-Accum.html
+  version: '0.5.5.0'
+deepseq:
+  modules:
+    Control.DeepSeq:
+    - deepseq-1.4.3.0
+    - Control-DeepSeq.html
+  version: '1.4.3.0'
+ghc-boot-th:
+  modules:
+    GHC.LanguageExtensions.Type:
+    - ghc-boot-th-8.4.3
+    - GHC-LanguageExtensions-Type.html
+    GHC.ForeignSrcLang.Type:
+    - ghc-boot-th-8.4.3
+    - GHC-ForeignSrcLang-Type.html
+    GHC.Lexeme:
+    - ghc-boot-th-8.4.3
+    - GHC-Lexeme.html
+  version: '8.4.3'
+pretty:
+  modules:
+    Text.PrettyPrint.Annotated:
+    - pretty-1.1.3.6
+    - Text-PrettyPrint-Annotated.html
+    Text.PrettyPrint.Annotated.HughesPJ:
+    - pretty-1.1.3.6
+    - Text-PrettyPrint-Annotated-HughesPJ.html
+    Text.PrettyPrint.Annotated.HughesPJClass:
+    - pretty-1.1.3.6
+    - Text-PrettyPrint-Annotated-HughesPJClass.html
+    Text.PrettyPrint:
+    - pretty-1.1.3.6
+    - Text-PrettyPrint.html
+    Text.PrettyPrint.HughesPJ:
+    - pretty-1.1.3.6
+    - Text-PrettyPrint-HughesPJ.html
+    Text.PrettyPrint.HughesPJClass:
+    - pretty-1.1.3.6
+    - Text-PrettyPrint-HughesPJClass.html
+  version: '1.1.3.6'
+haskell-lsp:
+  modules:
+    Language.Haskell.LSP.VFS:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-VFS.html
+    Language.Haskell.LSP.Diagnostics:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-Diagnostics.html
+    Language.Haskell.LSP.Constant:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-Constant.html
+    Language.Haskell.LSP.Types:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-Types.html
+    Language.Haskell.LSP.Core:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-Core.html
+    Language.Haskell.LSP.Messages:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-Messages.html
+    Language.Haskell.LSP.Utility:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-Utility.html
+    Language.Haskell.LSP.Control:
+    - haskell-lsp-0.2.2.0
+    - Language-Haskell-LSP-Control.html
+  version: '0.2.2.0'
+template-haskell:
+  modules:
+    Language.Haskell.TH.LanguageExtensions:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH-LanguageExtensions.html
+    Language.Haskell.TH.Lib.Internal:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH-Lib-Internal.html
+    Language.Haskell.TH:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH.html
+    Language.Haskell.TH.Syntax:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH-Syntax.html
+    Language.Haskell.TH.Lib:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH-Lib.html
+    Language.Haskell.TH.Quote:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH-Quote.html
+    Language.Haskell.TH.Ppr:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH-Ppr.html
+    Language.Haskell.TH.PprLib:
+    - template-haskell-2.13.0.0
+    - Language-Haskell-TH-PprLib.html
+  version: '2.13.0.0'
+directory:
+  modules:
+    System.Directory:
+    - directory-1.3.1.5
+    - System-Directory.html
+    System.Directory.Internal.Prelude:
+    - directory-1.3.1.5
+    - System-Directory-Internal-Prelude.html
+    System.Directory.Internal:
+    - directory-1.3.1.5
+    - System-Directory-Internal.html
+  version: '1.3.1.5'
